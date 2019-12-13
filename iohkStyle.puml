@@ -1,0 +1,347 @@
+@startuml
+
+!ifndef FONTNAME
+!define FONTNAME "Open Sans"
+!endif
+
+!ifndef FONTSIZE
+!define FONTSIZE 20
+!endif
+
+
+!ifdef TESTNETDARK
+!define ACCENTLIGHT cac5f5
+!define ACCENT 747fe4
+!define ACCENTDARK 6631a0
+!define PRIMARY eae9eb
+!define SECONDARY 333
+!define ARROWCOLOR ACCENT
+!define ARROWFONTCOLOR ACCENT
+!define BORDERCOLOR ACCENTDARK
+!define BACKGROUNDCOLOR 211b30
+!define BOXBG ACCENTDARK
+!define DBBGCOLOR ACCENTDARK
+!define DBFONTC PRIMARY
+!define RECFONTC PRIMARY
+!define RECBGCOLOR ACCENTDARK
+!define DBBORCOLOR ACCENT
+!define RECBORCOLOR ACCENT
+!define LIFELINECOLOR ACCENTDARK
+!define SEQFONTCOLOR ACCENTDARK
+!define STEREOTYPEFONTNAME FONTNAME
+!define ACTORBORCOLOR ACCENTDARK
+skinparam stereotypeCBackgroundColor ACCENTDARK
+skinparam backgroundColor BACKGROUNDCOLOR
+skinparam shadowing false
+skinparam roundCorner 25
+skinparam defaultTextAlignment center
+!endif
+
+
+!ifdef TESTNETLIGHT
+!define ACCENTLIGHT cac5f5
+!define ACCENT 747fe4
+!define ACCENTDARK 6631a0
+!define PRIMARY 333
+!define SECONDARY eae9eb
+!define ARROWCOLOR ACCENT
+!define ARROWFONTCOLOR ACCENT
+!define BORDERCOLOR ACCENTDARK
+!define BACKGROUNDCOLOR eae9eb
+!define BOXBG ACCENTDARK
+!define DBBGCOLOR SECONDARY
+!define DBFONTCOLOR ACCENTDARK
+!define RECFONTC ACCENTDARK
+!define RECBGCOLOR SECONDARY
+!define RECBORCOLOR PRIMARY
+!define DBBORCOLOR PRIMARY
+!define LIFELINECOLOR ACCENTDARK
+!define SEQFONTCOLOR ACCENTDARK
+!define STEREOTYPEFONTNAME ACCENTDARK
+!define ACTORBORCOLOR ACCENTDARK
+skinparam stereotypeCBackgroundColor ACCENTDARK
+skinparam backgroundColor BACKGROUNDCOLOR
+skinparam shadowing false
+skinparam roundCorner 25
+skinparam defaultTextAlignment center
+!endif
+
+!ifdef IOHKDARK
+!define ACCENTLIGHT f69ab2
+!define ACCENT ff3157
+!define ACCENTDARK 333333
+!define PRIMARY eae9eb
+!define SECONDARY 333
+!define BACKGROUNDCOLOR SECONDARY
+!define ARROWCOLOR PRIMARY
+!define ARROWFONTCOLOR ACCENTDARK
+!define BORDERCOLOR ACCENTDARK
+!define BOXBG ACCENTDARK 
+!define DBBORCOLOR ACCENT
+!define DBBGCOLOR PRIMARY
+!define DBFONTCOLOR ACCENT
+!define RECFONTC ACCENT
+!define RECBGCOLOR PRIMARY 
+!define RECBORCOLOR ACCENT
+!define LIFELINECOLOR ACCENT
+!define SEQFONTCOLOR ACCENT
+!define STEREOTYPEFONTNAME ACCENT
+!define ACTORBORCOLOR ACCENT
+skinparam stereotypeCBackgroundColor ACCENTDARK
+skinparam backgroundColor BACKGROUNDCOLOR
+skinparam shadowing false
+skinparam roundCorner 25
+skinparam defaultTextAlignment center
+!endif
+
+!ifdef IOHKLIGHT
+!define ACCENTLIGHT f69ab2
+!define ACCENT ff3157
+!define ACCENTDARK 333333
+!define PRIMARY 333
+!define SECONDARY eae9eb
+!define BACKGROUNDCOLOR SECONDARY
+!define ARROWCOLOR ACCENTDARK
+!define ARROWFONTCOLOR ACCENTDARK
+!define BORDERCOLOR ACCENTDARK
+!define BOXBG ACCENTDARK 
+!define DBBORCOLOR ACCENT
+!define DBBGCOLOR PRIMARY
+!define DBFONTCOLOR ACCENT
+!define RECFONTC ACCENT
+!define RECBGCOLOR ACCENTDARK 
+!define RECBORCOLOR ACCENT
+!define LIFELINECOLOR ACCENT
+!define SEQFONTCOLOR PRIMARY
+!define STEREOTYPEFONTNAME ACCENT
+!define ACTORBORCOLOR ACCENTDARK
+skinparam stereotypeCBackgroundColor ACCENTDARK
+skinparam backgroundColor BACKGROUNDCOLOR
+skinparam shadowing false
+skinparam roundCorner 25
+skinparam defaultTextAlignment center
+!endif
+
+!function font_style()
+  fontColor PRIMARY
+  fontName FONTNAME
+  fontSize FONTSIZE
+  stereotypeFontColor ACCENTDARK
+  stereotypeFontSize FONTSIZE
+  fontStyle lighter
+!endfunction
+
+!function basic_style()
+  backgroundColor BOXBG
+  borderColor BORDERCOLOR
+!endfunction
+
+!function accent_style()
+  backgroundColor ACCENT
+  borderColor ACCENTDARK
+!endfunction
+
+!function arrow_style()
+  arrowColor ARROWCOLOR
+  arrowFontName FONTNAME
+  arrowFontColor PRIMARY
+  arrowFontSize FONTSIZE
+  ArrowThickness 3
+  LollipopColor ARROWCOLOR
+!endfunction
+
+skinparam title{
+  FontColor ACCENT
+  FontName FONTNAME
+}
+
+' Class diagrams
+
+skinparam circledCharacter {
+  radius 8
+  fontSize FONTSIZE
+  fontName FONTNAME
+}
+
+skinparam class {
+  basic_style()
+  font_style()
+  arrow_style()
+  attributeFontColor SECONDARY
+  attributeFontSize FONTSIZE
+  attributeIconSize FONTSIZE
+}
+
+' Sequence diagrams
+skinparam actor {
+  accent_style()
+  font_style()
+  StereotypeFontName STEREOTYPEFONTNAME
+  fontcolor SEQFONTCOLOR 
+  borderColor  ACTORBORCOLOR 
+
+  
+}
+
+skinparam participant {
+  basic_style()
+  font_style()
+  BackgroundColor BACKGROUNDCOLOR
+  BorderColor BACKGROUNDCOLOR
+  Fontcolor SEQFONTCOLOR 
+}
+
+' Component diagrams
+
+skinparam interface {
+  accent_style()
+  font_style()
+}
+
+skinparam component {
+  basic_style()
+  font_style()
+  'StereotypeFontColor PRIMARY
+  BorderColor ACCENT
+  BackgroundColor PRIMARY
+  fontColor SECONDARY
+  stereotypeFontColor SECONDARY
+  BorderThickness 5
+}
+
+skinparam node {
+  basic_style()
+  font_style()
+  BorderColor ACCENT
+  BackgroundColor BACKGROUNDCOLOR
+  FontName FONTNAME
+}
+
+skinparam database {
+  basic_style()
+  font_style()
+  BackgroundColor DBBGCOLOR
+  BorderColor DBBORCOLOR
+  StereotypeFontName FONTNAME
+  stereotypeFontColor DBFONTCOLOR
+  FontColor DBFONTCOLOR
+}
+
+skinparam queue {
+  basic_style()
+  font_style()
+}
+
+'Use Case diagrams
+
+skinparam usecase {
+  basic_style()
+  font_style()
+  arrow_style()
+}
+
+skinparam activity {
+  basic_style()
+  font_style()
+  arrow_style()
+}
+
+skinparam sequence {
+  font_style()
+  arrow_style()
+  lifeLineBorderColor LIFELINECOLOR
+  LifeLineBorderThickness 3
+  lifeLineBackgroundColor ACCENT
+  DividerBorderColor ACCENT
+  DividerBorderThickness 5
+  DividerFontName FONTNAME
+  DividerFontStyle light
+  DividerFontSize FONTSIZE
+  DividerBackgroundColor ACCENT
+  DividerFontColor PRIMARY
+  TitleFontColor ACCENT
+  TitleFontSize FONTSIZE
+  TitleFontName FONTNAME
+  StereotypeFontColor STEREOTYPEFONTNAME
+}
+
+skinparam boundary {
+  accent_style()
+  font_style()
+}
+
+skinparam control {
+  accent_style()
+  font_style()
+}
+
+skinparam entity {
+  accent_style()
+  font_style()
+}
+
+' State diagrams
+
+skinparam state {
+  basic_style()
+  font_style()
+  arrow_style()
+  startColor ACCENT
+  endColor ACCENTDARK
+}
+
+' Object diagrams
+
+skinparam object {
+  basic_style()
+  font_style()
+  arrow_style()
+}
+
+' Common
+skinparam note {
+  accent_style()
+  font_style()
+}
+
+skinparam cloud {
+  basic_style()
+  font_style()
+  arrow_style()
+  BackgroundColor PRIMARY
+  fontColor SECONDARY
+  stereotypeFontColor SECONDARY
+  BorderThickness 5
+}
+
+skinparam rectangle {
+  StereotypeFontName FONTNAME
+  basic_style()
+  font_style()
+  BackgroundColor RECBGCOLOR
+  BorderColor RECBORCOLOR
+  stereotypeFontColor RECFONTC
+  FontColor RECFONTC
+}
+
+skinparam storage {
+  basic_style()
+  font_style()
+}
+
+skinparam package {
+  BackgroundColor BACKGROUNDCOLOR
+  borderColor ACCENT
+  BorderThickness 6
+  FontColor PRIMARY
+  stereotypeFontColor PRIMARY
+  FontName FONTNAME
+}
+
+
+skinparam caption{
+  FontColor ACCENT
+  FontName FONTNAME
+}
+
+@enduml
