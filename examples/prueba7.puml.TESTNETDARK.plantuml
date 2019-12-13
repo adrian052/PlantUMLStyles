@@ -1,0 +1,29 @@
+@startuml(id=liveDeployment)
+
+!define TESTNETDARK
+!includeurl https://raw.githubusercontent.com/adrian052/PlantUMLStyles/master/iohkStyle.puml
+
+scale max 2000x1409
+title Spring PetClinic - Deployment - Default
+caption An example live deployment scenario for the Spring PetClinic software system.
+
+
+node "Database Server - Primary" <<Ubuntu 12.04 LTS>> as 58 {
+  node "MySQL - Primary" <<MySQL 5.5.x>> as 59 {
+    database "Database" <<Container>> as 60 
+  }
+}
+node "Database Server - Secondary" <<Ubuntu 12.04 LTS>> as 64 {
+  node "MySQL - Secondary" <<MySQL 5.5.x>> as 65 {
+    database "Database" <<Container>> as 66 
+  }
+}
+node "Web Server (x2)" <<Ubuntu 12.04 LTS>> as 53 {
+  node "Apache Tomcat" <<Apache Tomcat 7.x>> as 54 {
+    rectangle "Web Application" <<Container>> as 55 
+  }
+}
+59 ..> 65 : Replicates data to
+55 ..> 60 : <<JDBC>>\nReads from and writes to
+55 ..> 66 : <<JDBC>>\nReads from and writes to
+@enduml

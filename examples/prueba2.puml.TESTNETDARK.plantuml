@@ -1,0 +1,34 @@
+@startuml(id=containers)
+scale max 2000x1409
+
+!define TESTNETDARK
+!includeurl https://raw.githubusercontent.com/adrian052/PlantUMLStyles/master/iohkStyle.puml
+
+title Spring PetClinic - Containers
+caption The Containers diagram for the Spring PetClinic system.
+
+
+actor "Clinic Employee" <<Person>> as 2 
+note right of 2
+  An employee of the clinic
+end note
+package "Spring PetClinic" <<Software System>> {
+  database 5 <<Container>> [
+    Database
+    --
+    Stores information regarding
+    the veterinarians, the
+    clients, and their pets.
+  ]
+  rectangle 4 <<Container>> [
+    Web Application
+    --
+    Allows employees to view and
+    manage information regarding
+    the veterinarians, the
+    clients, and their pets.
+  ]
+}
+2 ..> 4 : <<HTTPS>>\nUses
+4 ..> 5 : <<JDBC>>\nReads from and writes to
+@enduml

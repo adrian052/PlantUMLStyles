@@ -1,0 +1,102 @@
+@startuml(id=components)
+scale max 1413x2000
+
+!define TESTNETDARK
+!includeurl https://raw.githubusercontent.com/adrian052/PlantUMLStyles/master/iohkStyle.puml
+tyles.puml
+
+
+title Spring PetClinic - Web Application - Components
+caption The Components diagram for the Spring PetClinic web application.
+
+actor "Clinic Employee" <<Person>> as 2 
+note right of 2
+  An employee of the clinic
+end note
+database 5 <<Container>>  [
+  Database
+  --
+  Stores information regarding
+  the veterinarians, the
+  clients, and their pets.
+]
+package "Web Application" <<Container>> {
+  component 13 <<Spring Service>>  [
+    ClinicService
+    --
+    Mostly used as a facade so
+    all controllers have a single
+    point of entry
+  ]
+  component 9 <<Spring MVC Controller>>  [
+    CrashController
+    --
+    Controller used to showcase
+    what happens when an
+    exception is thrown
+  ]
+  component "OwnerController" <<Spring MVC Controller>> as 10 
+  component 16 <<Spring Repository>>  [
+    OwnerRepository
+    --
+    Repository class for Owner
+    domain objects All method
+    names are compliant with
+    Spring Data naming
+    conventions so this interface
+    can easily be exten...
+  ]
+  component "PetController" <<Spring MVC Controller>> as 12 
+  component 15 <<Spring Repository>>  [
+    PetRepository
+    --
+    Repository class for Pet
+    domain objects All method
+    names are compliant with
+    Spring Data naming
+    conventions so this interface
+    can easily be extende...
+  ]
+  component "VetController" <<Spring MVC Controller>> as 11 
+  component 17 <<Spring Repository>>  [
+    VetRepository
+    --
+    Repository class for Vet
+    domain objects All method
+    names are compliant with
+    Spring Data naming
+    conventions so this interface
+    can easily be extende...
+  ]
+  component "VisitController" <<Spring MVC Controller>> as 8 
+  component 14 <<Spring Repository>>  [
+    VisitRepository
+    --
+    Repository class for Visit
+    domain objects All method
+    names are compliant with
+    Spring Data naming
+    conventions so this interface
+    can easily be exten...
+  ]
+}
+2 ..> 9 : <<HTTP>>\nUses
+2 ..> 10 : <<HTTP>>\nUses
+2 ..> 12 : <<HTTP>>\nUses
+2 ..> 11 : <<HTTP>>\nUses
+2 ..> 8 : <<HTTP>>\nUses
+13 ..> 16 
+13 ..> 15 
+13 ..> 17 
+13 ..> 14 
+10 ..> 13 
+16 ..> 5 : <<JDBC>>\nReads from and writes to
+12 ..> 13 
+15 ..> 5 : <<JDBC>>\nReads from and writes to
+15 ..> 16 
+15 ..> 14 
+11 ..> 13 
+17 ..> 5 : <<JDBC>>\nReads from and writes to
+8 ..> 13 
+14 ..> 5 : <<JDBC>>\nReads from and writes to
+@enduml

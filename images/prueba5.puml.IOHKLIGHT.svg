@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="718px" preserveAspectRatio="none" style="width:604px;height:718px;background:#EAE9EB;" version="1.1" viewBox="0 0 604 718" width="604px" zoomAndPan="magnify"><defs/><g><text fill="#FF3157" font-family="Open Sans" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="328" x="132" y="19.2393">Spring PetClinic - Deployment - Default</text><!--MD5=[2ab84e1266618e51a3b425fb512d3332]
+cluster 37--><polygon fill="#EAE9EB" points="78.5,50.5127,88.5,40.5127,501.5,40.5127,501.5,662.5127,491.5,672.5127,78.5,672.5127,78.5,50.5127" style="stroke: #FF3157; stroke-width: 1.5;"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="491.5" x2="500.5" y1="50.5127" y2="41.5127"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="78.5" x2="491.5" y1="50.5127" y2="50.5127"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="491.5" x2="491.5" y1="50.5127" y2="672.5127"/><text fill="#333333" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="176" x="198" y="66.5078">«Windows 7+ or macOS»</text><text fill="#333333" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="164" x="204" y="91.1865">Developer Laptop</text><!--MD5=[3a0545b735d515d2263a1cf4db602e83]
+cluster 41--><polygon fill="#EAE9EB" points="86.5,457.5127,96.5,447.5127,493.5,447.5127,493.5,654.5127,483.5,664.5127,86.5,664.5127,86.5,457.5127" style="stroke: #FF3157; stroke-width: 1.5;"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="483.5" x2="492.5" y1="457.5127" y2="448.5127"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="86.5" x2="483.5" y1="457.5127" y2="457.5127"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="483.5" x2="483.5" y1="457.5127" y2="664.5127"/><text fill="#333333" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="68" x="252" y="473.5078">«Docker»</text><text fill="#333333" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="331" x="120.5" y="498.1865">Docker Container - Database Server</text><!--MD5=[1819480abcc81c2aa1330b62ff02af10]
+cluster 42--><polygon fill="#EAE9EB" points="135.5,516.5127,145.5,506.5127,363.5,506.5127,363.5,646.5127,353.5,656.5127,135.5,656.5127,135.5,516.5127" style="stroke: #FF3157; stroke-width: 1.5;"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="353.5" x2="362.5" y1="516.5127" y2="507.5127"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="135.5" x2="353.5" y1="516.5127" y2="516.5127"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="353.5" x2="353.5" y1="516.5127" y2="656.5127"/><text fill="#333333" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="78" x="206.5" y="532.5078">«HSQLDB»</text><text fill="#333333" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="152" x="169.5" y="557.1865">Database Server</text><!--MD5=[8f4b218350cca89c078ebe441b9207a4]
+cluster 38--><polygon fill="#EAE9EB" points="109.5,109.5127,119.5,99.5127,470.5,99.5127,470.5,297.5127,460.5,307.5127,109.5,307.5127,109.5,109.5127" style="stroke: #FF3157; stroke-width: 1.5;"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="460.5" x2="469.5" y1="109.5127" y2="100.5127"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="109.5" x2="460.5" y1="109.5127" y2="109.5127"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="460.5" x2="460.5" y1="109.5127" y2="307.5127"/><text fill="#333333" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="68" x="252" y="125.5078">«Docker»</text><text fill="#333333" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="285" x="143.5" y="150.1865">Docker Container - Web Server</text><!--MD5=[fe13b9cf40c2e42e0f32885fe062e237]
+cluster 39--><polygon fill="#EAE9EB" points="140.5,168.5127,150.5,158.5127,368.5,158.5127,368.5,289.5127,358.5,299.5127,140.5,299.5127,140.5,168.5127" style="stroke: #FF3157; stroke-width: 1.5;"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="358.5" x2="367.5" y1="168.5127" y2="159.5127"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="140.5" x2="358.5" y1="168.5127" y2="168.5127"/><line style="stroke: #FF3157; stroke-width: 1.5;" x1="358.5" x2="358.5" y1="168.5127" y2="299.5127"/><text fill="#333333" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="152" x="174.5" y="184.5078">«Apache Tomcat 7.x»</text><text fill="#333333" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="144" x="178.5" y="209.1865">Apache Tomcat</text><!--MD5=[b08dfb8a5cec225466d2f2a725a4e7a9]
+entity 43--><path d="M184,575.5127 C184,565.5127 246.5,565.5127 246.5,565.5127 C246.5,565.5127 309,565.5127 309,575.5127 L309,638.9854 C309,648.9854 246.5,648.9854 246.5,648.9854 C246.5,648.9854 184,648.9854 184,638.9854 L184,575.5127 " fill="#333333" style="stroke: #FF3157; stroke-width: 1.5;"/><path d="M184,575.5127 C184,585.5127 246.5,585.5127 246.5,585.5127 C246.5,585.5127 309,585.5127 309,575.5127 " fill="none" style="stroke: #FF3157; stroke-width: 1.5;"/><text fill="#FF3157" font-family="Open Sans" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="105" x="194" y="610.8896">«Container»</text><text fill="#FF3157" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="88" x="202.5" y="638.126">Database</text><!--MD5=[abf5b0e770fa05318d49fc05e1da7dc3]
+entity 40--><rect fill="#333333" height="74.4727" rx="12.5" ry="12.5" style="stroke: #FF3157; stroke-width: 1.5;" width="171" x="161" y="217.5127"/><text fill="#FF3157" font-family="Open Sans" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="105" x="194" y="248.8896">«Container»</text><text fill="#FF3157" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="151" x="171" y="276.126">Web Application</text><!--MD5=[9fcf3a0c4a1bcb278058076ebea315e1]
+link 40 to 43--><path d="M246.5,291.5701 C246.5,356.0873 246.5,488.9236 246.5,559.8864 " fill="none" id="40-&gt;43" style="stroke: #333333; stroke-width: 3.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#333333" points="246.5,565.3043,250.5,556.3043,246.5,560.3043,242.5,556.3043,246.5,565.3043" style="stroke: #333333; stroke-width: 3.0;"/><text fill="#333333" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="66" x="331" y="374.8896">«JDBC»</text><text fill="#333333" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="233" x="247.5" y="402.126">Reads from and writes to</text><text fill="#FF3157" font-family="Open Sans" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="592" x="0" y="705.4766">An example development deployment scenario for the Spring PetClinic software system.</text><!--MD5=[bebacd7fb5a0f911598b06a72299e340]
+@startuml(id=developmentDeployment)
+
+
+
+
+
+
+
+
+
+skinparam stereotypeCBackgroundColor 333333
+skinparam backgroundColor eae9eb
+skinparam shadowing false
+skinparam roundCorner 25
+skinparam defaultTextAlignment center
+
+
+
+
+
+skinparam title{
+  FontColor ff3157
+  FontName "Open Sans"
+}
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 20
+  fontName "Open Sans"
+}
+
+skinparam class {
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 333333
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 333333
+  attributeFontColor eae9eb
+  attributeFontSize 20
+  attributeIconSize 20
+}
+
+skinparam actor {
+    backgroundColor ff3157
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+  StereotypeFontName ff3157
+  fontcolor 333 
+  borderColor  333333 
+
+  
+}
+
+skinparam participant {
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor eae9eb
+  BorderColor eae9eb
+  Fontcolor 333 
+}
+
+
+skinparam interface {
+    backgroundColor ff3157
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam component {
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+  BorderColor ff3157
+  BackgroundColor 333
+  fontColor eae9eb
+  stereotypeFontColor eae9eb
+  BorderThickness 5
+}
+
+skinparam node {
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+  BorderColor ff3157
+  BackgroundColor eae9eb
+  FontName "Open Sans"
+}
+
+skinparam database {
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor 333
+  BorderColor ff3157
+  StereotypeFontName "Open Sans"
+  stereotypeFontColor ff3157
+  FontColor ff3157
+}
+
+skinparam queue {
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+
+skinparam usecase {
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 333333
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 333333
+}
+
+skinparam activity {
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 333333
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 333333
+}
+
+skinparam sequence {
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 333333
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 333333
+  lifeLineBorderColor ff3157
+  LifeLineBorderThickness 3
+  lifeLineBackgroundColor ff3157
+  DividerBorderColor ff3157
+  DividerBorderThickness 5
+  DividerFontName "Open Sans"
+  DividerFontStyle light
+  DividerFontSize 20
+  DividerBackgroundColor ff3157
+  DividerFontColor 333
+  TitleFontColor ff3157
+  TitleFontSize 20
+  TitleFontName "Open Sans"
+  StereotypeFontColor ff3157
+}
+
+skinparam boundary {
+    backgroundColor ff3157
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam control {
+    backgroundColor ff3157
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam entity {
+    backgroundColor ff3157
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+
+skinparam state {
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 333333
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 333333
+  startColor ff3157
+  endColor 333333
+}
+
+
+skinparam object {
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 333333
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 333333
+}
+
+skinparam note {
+    backgroundColor ff3157
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam cloud {
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 333333
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 333333
+  BackgroundColor 333
+  fontColor eae9eb
+  stereotypeFontColor eae9eb
+  BorderThickness 5
+}
+
+skinparam rectangle {
+  StereotypeFontName "Open Sans"
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor 333333
+  BorderColor ff3157
+  stereotypeFontColor ff3157
+  FontColor ff3157
+}
+
+skinparam storage {
+    backgroundColor 333333
+  borderColor 333333
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 333333
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam package {
+  BackgroundColor eae9eb
+  borderColor ff3157
+  BorderThickness 6
+  FontColor 333
+  stereotypeFontColor 333
+  FontName "Open Sans"
+}
+
+
+skinparam caption{
+  FontColor ff3157
+  FontName "Open Sans"
+}
+
+
+
+scale max 2000x1409
+title Spring PetClinic - Deployment - Default
+caption An example development deployment scenario for the Spring PetClinic software system.
+
+node "Developer Laptop" <<Windows 7+ or macOS>> as 37 {
+  node "Docker Container - Database Server" <<Docker>> as 41 {
+    node "Database Server" <<HSQLDB>> as 42 {
+      database "Database" <<Container>> as 43 
+    }
+  }
+  node "Docker Container - Web Server" <<Docker>> as 38 {
+    node "Apache Tomcat" <<Apache Tomcat 7.x>> as 39 {
+      rectangle "Web Application" <<Container>> as 40 
+    }
+  }
+}
+40 ..> 43 : <<JDBC>>\nReads from and writes to
+@enduml
+
+PlantUML version 1.2019.13(Tue Dec 10 11:18:29 CST 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_222-8u222-b10-1ubuntu1~18.04.1-b10
+Operating System: Linux
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

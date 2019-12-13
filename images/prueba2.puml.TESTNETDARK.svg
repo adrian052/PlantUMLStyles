@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="884px" preserveAspectRatio="none" style="width:555px;height:884px;background:#211B30;" version="1.1" viewBox="0 0 555 884" width="555px" zoomAndPan="magnify"><defs/><g><text fill="#747FE4" font-family="Open Sans" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="239" x="160.5" y="19.2393">Spring PetClinic - Containers</text><!--MD5=[03de2e374e2c04e3b44ad0936b984490]
+cluster Spring PetClinic--><path d="M26.5,242.5127 L115.5,242.5127 A18.75,18.75 0 0 1 128,255.0127 L135,267.5781 L333.5,267.5781 A12.5,12.5 0 0 1 346,280.0781 L346,826.0127 A12.5,12.5 0 0 1 333.5,838.5127 L26.5,838.5127 A12.5,12.5 0 0 1 14,826.0127 L14,255.0127 A12.5,12.5 0 0 1 26.5,242.5127 " fill="#211B30" style="stroke: #747FE4; stroke-width: 1.5;"/><line style="stroke: #747FE4; stroke-width: 1.5;" x1="14" x2="135" y1="267.5781" y2="267.5781"/><text fill="#EAE9EB" font-family="Open Sans" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="18" y="259.4766">Spring PetClinic</text><text fill="#EAE9EB" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="117.5" y="282.5732">«Software System»</text><!--MD5=[fad6a9c1e4f80769a7fea8e2093188d9]
+entity 5--><path d="M22,667.5127 C22,657.5127 172,657.5127 172,657.5127 C172,657.5127 322,657.5127 322,667.5127 L322,820.6943 C322,830.6943 172,830.6943 172,830.6943 C172,830.6943 22,830.6943 22,820.6943 L22,667.5127 " fill="#6631A0" style="stroke: #747FE4; stroke-width: 1.5;"/><path d="M22,667.5127 C22,677.5127 172,677.5127 172,677.5127 C172,677.5127 322,677.5127 322,667.5127 " fill="none" style="stroke: #747FE4; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="Open Sans" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="105" x="119.5" y="702.8896">«Container»</text><text fill="#FFFFFF" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="88" x="128" y="730.126">Database</text><path d="M22,730.9854 C22,740.9854 172,740.9854 172,740.9854 C172,740.9854 322,740.9854 322,730.9854 " fill="none" style="stroke: #747FE4; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="268" x="38" y="761.3623">Stores information regarding</text><text fill="#FFFFFF" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="196" x="74" y="788.5986">the veterinarians, the</text><text fill="#FFFFFF" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="203" x="70.5" y="815.835">clients, and their pets.</text><!--MD5=[ca8cb0432c9090f8973c99138b4c3ca0]
+entity 4--><rect fill="#6631A0" height="191.418" rx="12.5" ry="12.5" style="stroke: #747FE4; stroke-width: 1.5;" width="316" x="22" y="288.5127"/><text fill="#EAE9EB" font-family="Open Sans" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="105" x="127.5" y="319.8896">«Container»</text><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="151" x="104.5" y="347.126">Web Application</text><line style="stroke: #747FE4; stroke-width: 1.0;" x1="23" x2="337" y1="352.9854" y2="352.9854"/><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="278" x="41" y="378.3623">Allows employees to view and</text><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="284" x="38" y="405.5986">manage information regarding</text><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="196" x="82" y="432.835">the veterinarians, the</text><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="203" x="78.5" y="460.0713">clients, and their pets.</text><!--MD5=[773709cb2207c097691e7e7d3d2cc787]
+entity 2--><ellipse cx="180" cy="69.249" fill="#747FE4" rx="8" ry="8" style="stroke: #6631A0; stroke-width: 1.5;"/><path d="M180,77.249 L180,104.249 M167,85.249 L193,85.249 M180,104.249 L167,119.249 M180,104.249 L193,119.249 " fill="none" style="stroke: #6631A0; stroke-width: 1.5;"/><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="146" x="107" y="143.126">Clinic Employee</text><text fill="#6631A0" font-family="Open Sans" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="140.5" y="53.8896">«Person»</text><path d="M288.5,84.5127 L288.5,86.5127 L253.4375,90.5127 L288.5,94.5127 L288.5,96.749 A12.5,12.5 0 0 0 301,109.249 L529,109.249 A12.5,12.5 0 0 0 541.5,96.749 L541.5,82.0127 L531.5,72.0127 L301,72.0127 A12.5,12.5 0 0 0 288.5,84.5127 " fill="#747FE4" style="stroke: #6631A0; stroke-width: 1.0;"/><path d="M531.5,72.0127 L531.5,75.7627 A6.25,6.25 0 0 0 537.75,82.0127 L541.5,82.0127 L531.5,72.0127 " fill="#747FE4" style="stroke: #6631A0; stroke-width: 1.0;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="232" x="294.5" y="98.3896">An employee of the clinic</text><!--MD5=[d209f2622dd5d3103b9c9b4670e2d6db]
+link 2 to 4--><path d="M180,148.8498 C180,187.1609 180,238.2889 180,283.0851 " fill="none" id="2-&gt;4" style="stroke: #747FE4; stroke-width: 3.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="180,288.2351,184,279.2351,180,283.2351,176,279.2351,180,288.2351" style="stroke: #747FE4; stroke-width: 3.0;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="80" x="181" y="200.8896">«HTTPS»</text><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="46" x="198" y="228.126">Uses</text><!--MD5=[fb7a877824a531edc27ce1774c90edf7]
+link 4 to 5--><path d="M177.8772,479.5409 C176.6888,533.0166 175.2146,599.3561 174.0399,652.2155 " fill="none" id="4-&gt;5" style="stroke: #747FE4; stroke-width: 3.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="173.9272,657.288,178.1263,648.3791,174.0383,652.2892,170.1282,648.2013,173.9272,657.288" style="stroke: #747FE4; stroke-width: 3.0;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="66" x="261.5" y="562.8896">«JDBC»</text><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="233" x="178" y="590.126">Reads from and writes to</text><text fill="#747FE4" font-family="Open Sans" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="376" x="92" y="871.4766">The Containers diagram for the Spring PetClinic system.</text><!--MD5=[55f73af12d45edda4013708ff92486d1]
+@startuml(id=containers)
+scale max 2000x1409
+
+
+
+
+
+skinparam stereotypeCBackgroundColor 6631a0
+skinparam backgroundColor 211b30
+skinparam shadowing false
+skinparam roundCorner 25
+skinparam defaultTextAlignment center
+
+
+
+
+
+
+
+
+
+skinparam title{
+  FontColor 747fe4
+  FontName "Open Sans"
+}
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 20
+  fontName "Open Sans"
+}
+
+skinparam class {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  attributeFontColor 333
+  attributeFontSize 20
+  attributeIconSize 20
+}
+
+skinparam actor {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  StereotypeFontName "Open Sans"
+  fontcolor 6631a0 
+  borderColor  6631a0 
+
+  
+}
+
+skinparam participant {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor 211b30
+  BorderColor 211b30
+  Fontcolor 6631a0 
+}
+
+
+skinparam interface {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam component {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BorderColor 747fe4
+  BackgroundColor eae9eb
+  fontColor 333
+  stereotypeFontColor 333
+  BorderThickness 5
+}
+
+skinparam node {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BorderColor 747fe4
+  BackgroundColor 211b30
+  FontName "Open Sans"
+}
+
+skinparam database {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor 6631a0
+  BorderColor 747fe4
+  StereotypeFontName "Open Sans"
+  stereotypeFontColor DBFONTCOLOR
+  FontColor DBFONTCOLOR
+}
+
+skinparam queue {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+
+skinparam usecase {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+}
+
+skinparam activity {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+}
+
+skinparam sequence {
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  lifeLineBorderColor 6631a0
+  LifeLineBorderThickness 3
+  lifeLineBackgroundColor 747fe4
+  DividerBorderColor 747fe4
+  DividerBorderThickness 5
+  DividerFontName "Open Sans"
+  DividerFontStyle light
+  DividerFontSize 20
+  DividerBackgroundColor 747fe4
+  DividerFontColor eae9eb
+  TitleFontColor 747fe4
+  TitleFontSize 20
+  TitleFontName "Open Sans"
+  StereotypeFontColor "Open Sans"
+}
+
+skinparam boundary {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam control {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam entity {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+
+skinparam state {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  startColor 747fe4
+  endColor 6631a0
+}
+
+
+skinparam object {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+}
+
+skinparam note {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam cloud {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  BackgroundColor eae9eb
+  fontColor 333
+  stereotypeFontColor 333
+  BorderThickness 5
+}
+
+skinparam rectangle {
+  StereotypeFontName "Open Sans"
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor 6631a0
+  BorderColor 747fe4
+  stereotypeFontColor eae9eb
+  FontColor eae9eb
+}
+
+skinparam storage {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam package {
+  BackgroundColor 211b30
+  borderColor 747fe4
+  BorderThickness 6
+  FontColor eae9eb
+  stereotypeFontColor eae9eb
+  FontName "Open Sans"
+}
+
+
+skinparam caption{
+  FontColor 747fe4
+  FontName "Open Sans"
+}
+
+
+title Spring PetClinic - Containers
+caption The Containers diagram for the Spring PetClinic system.
+
+
+actor "Clinic Employee" <<Person>> as 2 
+note right of 2
+  An employee of the clinic
+end note
+package "Spring PetClinic" <<Software System>> {
+  database 5 <<Container>> [
+    Database
+    - -
+    Stores information regarding
+    the veterinarians, the
+    clients, and their pets.
+  ]
+  rectangle 4 <<Container>> [
+    Web Application
+    - -
+    Allows employees to view and
+    manage information regarding
+    the veterinarians, the
+    clients, and their pets.
+  ]
+}
+2 ..> 4 : <<HTTPS>>\nUses
+4 ..> 5 : <<JDBC>>\nReads from and writes to
+@enduml
+
+PlantUML version 1.2019.13(Tue Dec 10 11:18:29 CST 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_222-8u222-b10-1ubuntu1~18.04.1-b10
+Operating System: Linux
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

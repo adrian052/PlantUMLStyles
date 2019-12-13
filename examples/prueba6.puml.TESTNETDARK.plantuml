@@ -1,0 +1,21 @@
+@startuml(id=stagingDeployment)
+
+!define TESTNETDARK
+!includeurl https://raw.githubusercontent.com/adrian052/PlantUMLStyles/master/iohkStyle.puml
+
+
+
+scale max 2000x1409
+title Spring PetClinic - Deployment - Default
+caption An example staging deployment scenario for the Spring PetClinic software system.
+
+node "Staging Server" <<Ubuntu 12.04 LTS>> as 45 {
+  node "MySQL" <<MySQL 5.5.x>> as 49 {
+    database "Database" <<Container>> as 50 
+  }
+  node "Apache Tomcat" <<Apache Tomcat 7.x>> as 46 {
+    rectangle "Web Application" <<Container>> as 47 
+  }
+}
+47 ..> 50 : <<JDBC>>\nReads from and writes to
+@enduml

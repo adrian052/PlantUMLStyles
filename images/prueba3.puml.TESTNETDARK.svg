@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1687.1776px" preserveAspectRatio="none" style="width:1406px;height:1687px;background:#211B30;" version="1.1" viewBox="0 0 1406 1687" width="1406.728px" zoomAndPan="magnify"><defs/><g><text fill="#747FE4" font-family="Open Sans" font-size="16.1281" lengthAdjust="spacingAndGlyphs" textLength="367.3621" x="522.819" y="17.2385">Spring PetClinic - Web Application - Components</text><!--MD5=[9581351d4a2028020f5e3315621c6150]
+cluster Web Application--><path d="M23.7441,217.2926 L108.8646,217.2926 A16.8001,16.8001 0 0 1 120.0647,228.4927 L126.3367,239.7514 L1377.6078,239.7514 A11.2001,11.2001 0 0 1 1388.8079,250.9514 L1388.8079,1390.6112 A11.2001,11.2001 0 0 1 1377.6078,1401.8113 L23.7441,1401.8113 A11.2001,11.2001 0 0 1 12.5441,1390.6112 L12.5441,228.4927 A11.2001,11.2001 0 0 1 23.7441,217.2926 " fill="#211B30" style="stroke: #747FE4; stroke-width: 1.344007609384908;"/><line style="stroke: #747FE4; stroke-width: 1.344007609384908;" x1="12.5441" x2="126.3367" y1="239.7514" y2="239.7514"/><text fill="#EAE9EB" font-family="Open Sans" font-size="12.5441" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="102.1446" x="16.1281" y="232.4923">Web Application</text><text fill="#EAE9EB" font-family="sans-serif" font-size="12.5441" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="76.1604" x="666.1798" y="253.1871">«Container»</text><!--MD5=[2cd44814ab46f5e6a99045c6c67d7a1c]
+entity 13--><rect fill="#EAE9EB" height="152.5239" rx="11.2001" ry="11.2001" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="270.5935" x="722.1801" y="521.0383"/><rect fill="#EAE9EB" height="8.9601" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="13.4401" x="974.8535" y="525.5184"/><rect fill="#EAE9EB" height="1.792" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="3.584" x="973.0615" y="527.3104"/><rect fill="#EAE9EB" height="1.792" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="3.584" x="973.0615" y="530.8944"/><text fill="#333333" font-family="sans-serif" font-size="17.9201" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="152.3209" x="776.8364" y="555.5923">«Spring Service»</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="103.9366" x="801.0285" y="578.9724">ClinicService</text><line style="stroke: #747FE4; stroke-width: 0.896005072923272;" x1="723.0761" x2="991.8776" y1="584.2224" y2="584.2224"/><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="222.2093" x="741.8922" y="606.9603">Mostly used as a facade so</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="224.0013" x="740.9962" y="631.3642">all controllers have a single</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="112.0006" x="796.9965" y="655.7681">point of entry</text><!--MD5=[d25218acdea247ba6571a34297258ee9]
+entity 9--><rect fill="#EAE9EB" height="152.5239" rx="11.2001" ry="11.2001" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="283.1376" x="19.7121" y="258.5088"/><rect fill="#EAE9EB" height="8.9601" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="13.4401" x="284.9296" y="262.9889"/><rect fill="#EAE9EB" height="1.792" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="3.584" x="283.1376" y="264.7809"/><rect fill="#EAE9EB" height="1.792" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="3.584" x="283.1376" y="268.3649"/><text fill="#333333" font-family="sans-serif" font-size="17.9201" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="220.4172" x="46.5923" y="293.0628">«Spring MVC Controller»</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="131.7127" x="90.9445" y="316.4429">CrashController</text><line style="stroke: #747FE4; stroke-width: 0.896005072923272;" x1="20.6081" x2="301.9537" y1="321.6929" y2="321.6929"/><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="236.5453" x="38.5282" y="344.4308">Controller used to showcase</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="192.6411" x="60.4803" y="368.8347">what happens when an</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="163.0729" x="75.2644" y="393.2386">exception is thrown</text><!--MD5=[832467b18690d1dd1b9afbdc6cb3d7bf]
+entity 10--><rect fill="#EAE9EB" height="63.1841" rx="11.2001" ry="11.2001" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="238.3373" x="334.2099" y="302.8611"/><rect fill="#EAE9EB" height="4.48" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="8.9601" x="329.7299" y="307.3411"/><rect fill="#EAE9EB" height="4.48" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="8.9601" x="329.7299" y="357.0851"/><text fill="#333333" font-family="sans-serif" font-size="17.9201" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="220.4172" x="343.1699" y="328.455">«Spring MVC Controller»</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="139.7768" x="383.4902" y="351.8351">OwnerController</text><!--MD5=[719f049e567def7483c03ccc3af4ed75]
+entity 16--><rect fill="#EAE9EB" height="225.7355" rx="11.2001" ry="11.2001" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="284.9296" x="355.714" y="1168.85"/><rect fill="#EAE9EB" height="8.9601" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="13.4401" x="622.7235" y="1173.33"/><rect fill="#EAE9EB" height="1.792" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="3.584" x="620.9315" y="1175.122"/><rect fill="#EAE9EB" height="1.792" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="3.584" x="620.9315" y="1178.706"/><text fill="#333333" font-family="sans-serif" font-size="17.9201" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="181.889" x="402.7543" y="1203.4039">«Spring Repository»</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="145.1528" x="421.1224" y="1226.7841">OwnerRepository</text><line style="stroke: #747FE4; stroke-width: 0.896005072923272;" x1="356.61" x2="639.7476" y1="1232.0341" y2="1232.0341"/><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="224.0013" x="381.6982" y="1254.772">Repository class for Owner</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="223.1053" x="382.1462" y="1279.1759">domain objects All method</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="215.9372" x="385.7302" y="1303.5798">names are compliant with</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="163.9689" x="411.7143" y="1327.9836">Spring Data naming</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="238.3373" x="374.5301" y="1352.3875">conventions so this interface</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="169.345" x="409.0263" y="1376.7914">can easily be exten...</text><!--MD5=[2e47fe9ff0124b653d7be087bd1c1ac2]
+entity 12--><rect fill="#EAE9EB" height="63.1841" rx="11.2001" ry="11.2001" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="238.3373" x="603.9074" y="302.8611"/><rect fill="#EAE9EB" height="4.48" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="8.9601" x="599.4274" y="307.3411"/><rect fill="#EAE9EB" height="4.48" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="8.9601" x="599.4274" y="357.0851"/><text fill="#333333" font-family="sans-serif" font-size="17.9201" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="220.4172" x="612.8675" y="328.455">«Spring MVC Controller»</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="110.2086" x="667.9718" y="351.8351">PetController</text><!--MD5=[50c48f50f23c4505b4e1bf8eb0388b7a]
+entity 15--><rect fill="#EAE9EB" height="225.7355" rx="11.2001" ry="11.2001" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="284.9296" x="592.2594" y="783.5678"/><rect fill="#EAE9EB" height="8.9601" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="13.4401" x="859.2689" y="788.0478"/><rect fill="#EAE9EB" height="1.792" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="3.584" x="857.4769" y="789.8398"/><rect fill="#EAE9EB" height="1.792" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="3.584" x="857.4769" y="793.4239"/><text fill="#333333" font-family="sans-serif" font-size="17.9201" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="181.889" x="639.2996" y="818.1218">«Spring Repository»</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="115.5847" x="672.4518" y="841.5019">PetRepository</text><line style="stroke: #747FE4; stroke-width: 0.896005072923272;" x1="593.1554" x2="876.293" y1="846.7519" y2="846.7519"/><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="194.4331" x="633.0276" y="869.4898">Repository class for Pet</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="223.1053" x="618.6915" y="893.8937">domain objects All method</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="215.9372" x="622.2755" y="918.2976">names are compliant with</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="163.9689" x="648.2597" y="942.7015">Spring Data naming</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="238.3373" x="611.0755" y="967.1054">conventions so this interface</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="189.9531" x="635.2676" y="991.5092">can easily be extende...</text><!--MD5=[e25884bd7fe840786d881277a14c5a0e]
+entity 11--><rect fill="#EAE9EB" height="63.1841" rx="11.2001" ry="11.2001" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="238.3373" x="873.6049" y="302.8611"/><rect fill="#EAE9EB" height="4.48" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="8.9601" x="869.1249" y="307.3411"/><rect fill="#EAE9EB" height="4.48" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="8.9601" x="869.1249" y="357.0851"/><text fill="#333333" font-family="sans-serif" font-size="17.9201" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="220.4172" x="882.565" y="328.455">«Spring MVC Controller»</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="110.2086" x="937.6693" y="351.8351">VetController</text><!--MD5=[dc00b6f0bfcb3e33cce0c0c30000e56b]
+entity 17--><rect fill="#EAE9EB" height="225.7355" rx="11.2001" ry="11.2001" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="284.9296" x="1025.0298" y="783.5678"/><rect fill="#EAE9EB" height="8.9601" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="13.4401" x="1292.0393" y="788.0478"/><rect fill="#EAE9EB" height="1.792" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="3.584" x="1290.2473" y="789.8398"/><rect fill="#EAE9EB" height="1.792" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="3.584" x="1290.2473" y="793.4239"/><text fill="#333333" font-family="sans-serif" font-size="17.9201" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="181.889" x="1072.0701" y="818.1218">«Spring Repository»</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="115.5847" x="1105.2223" y="841.5019">VetRepository</text><line style="stroke: #747FE4; stroke-width: 0.896005072923272;" x1="1025.9258" x2="1309.0634" y1="846.7519" y2="846.7519"/><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="194.4331" x="1065.798" y="869.4898">Repository class for Vet</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="223.1053" x="1051.462" y="893.8937">domain objects All method</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="215.9372" x="1055.046" y="918.2976">names are compliant with</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="163.9689" x="1081.0301" y="942.7015">Spring Data naming</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="238.3373" x="1043.8459" y="967.1054">conventions so this interface</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="189.9531" x="1068.038" y="991.5092">can easily be extende...</text><!--MD5=[df1cfc51a8f3e60039521c9170723b8d]
+entity 8--><rect fill="#EAE9EB" height="63.1841" rx="11.2001" ry="11.2001" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="238.3373" x="1143.3025" y="302.8611"/><rect fill="#EAE9EB" height="4.48" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="8.9601" x="1138.8224" y="307.3411"/><rect fill="#EAE9EB" height="4.48" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="8.9601" x="1138.8224" y="357.0851"/><text fill="#333333" font-family="sans-serif" font-size="17.9201" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="220.4172" x="1152.2625" y="328.455">«Spring MVC Controller»</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="118.2727" x="1203.3348" y="351.8351">VisitController</text><!--MD5=[b289b39ced8dc6d267141842d8cb9775]
+entity 14--><rect fill="#EAE9EB" height="225.7355" rx="11.2001" ry="11.2001" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="284.9296" x="672.0038" y="1168.85"/><rect fill="#EAE9EB" height="8.9601" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="13.4401" x="939.0133" y="1173.33"/><rect fill="#EAE9EB" height="1.792" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="3.584" x="937.2213" y="1175.122"/><rect fill="#EAE9EB" height="1.792" style="stroke: #747FE4; stroke-width: 4.48002536461636;" width="3.584" x="937.2213" y="1178.706"/><text fill="#333333" font-family="sans-serif" font-size="17.9201" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="181.889" x="719.0441" y="1203.4039">«Spring Repository»</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="123.6487" x="748.1642" y="1226.7841">VisitRepository</text><line style="stroke: #747FE4; stroke-width: 0.896005072923272;" x1="672.8998" x2="956.0374" y1="1232.0341" y2="1232.0341"/><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="202.4971" x="708.74" y="1254.772">Repository class for Visit</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="223.1053" x="698.436" y="1279.1759">domain objects All method</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="215.9372" x="702.02" y="1303.5798">names are compliant with</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="163.9689" x="728.0041" y="1327.9836">Spring Data naming</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="238.3373" x="690.8199" y="1352.3875">conventions so this interface</text><text fill="#333333" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="169.345" x="725.3161" y="1376.7914">can easily be exten...</text><!--MD5=[09166062d211272a81a649203b01f997]
+entity tyles--><ellipse cx="532.227" cy="49.7397" fill="#747FE4" rx="7.168" ry="7.168" style="stroke: #6631A0; stroke-width: 1.344007609384908;"/><path d="M532.227,56.9077 L532.227,81.0998 M520.5789,64.0757 L543.8751,64.0757 M532.227,81.0998 L520.5789,94.5399 M532.227,81.0998 L543.8751,94.5399 " fill="none" style="stroke: #6631A0; stroke-width: 1.344007609384908;"/><text fill="#6631A0" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="38.5282" x="512.9629" y="115.9338">tyles</text><!--MD5=[6939eeb730f47be8ca940ad56335c2ed]
+entity puml--><ellipse cx="604.8034" cy="49.7397" fill="#747FE4" rx="7.168" ry="7.168" style="stroke: #6631A0; stroke-width: 1.344007609384908;"/><path d="M604.8034,56.9077 L604.8034,81.0998 M593.1554,64.0757 L616.4515,64.0757 M604.8034,81.0998 L593.1554,94.5399 M604.8034,81.0998 L616.4515,94.5399 " fill="none" style="stroke: #6631A0; stroke-width: 1.344007609384908;"/><text fill="#6631A0" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="43.0082" x="583.2993" y="115.9338">puml</text><!--MD5=[773709cb2207c097691e7e7d3d2cc787]
+entity 2--><ellipse cx="723.0761" cy="62.0475" fill="#747FE4" rx="7.168" ry="7.168" style="stroke: #6631A0; stroke-width: 1.344007609384908;"/><path d="M723.0761,69.2155 L723.0761,93.4077 M711.428,76.3836 L734.7242,76.3836 M723.0761,93.4077 L711.428,106.8477 M723.0761,93.4077 L734.7242,106.8477 " fill="none" style="stroke: #6631A0; stroke-width: 1.344007609384908;"/><text fill="#6631A0" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="130.8167" x="657.6677" y="128.2416">Clinic Employee</text><text fill="#6631A0" font-family="Open Sans" font-size="17.9201" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70.7844" x="687.6839" y="48.2854">«Person»</text><path d="M820.2926,75.7238 L820.2926,77.5158 L788.8765,81.0998 L820.2926,84.6839 L820.2926,86.6876 A11.2001,11.2001 0 0 0 831.4927,97.8877 L1035.7819,97.8877 A11.2001,11.2001 0 0 0 1046.9819,86.6876 L1046.9819,73.4838 L1038.0219,64.5237 L831.4927,64.5237 A11.2001,11.2001 0 0 0 820.2926,75.7238 " fill="#747FE4" style="stroke: #6631A0; stroke-width: 0.896005072923272;"/><path d="M1038.0219,64.5237 L1038.0219,67.8838 A5.6,5.6 0 0 0 1043.6219,73.4838 L1046.9819,73.4838 L1038.0219,64.5237 " fill="#747FE4" style="stroke: #6631A0; stroke-width: 0.896005072923272;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="207.8732" x="825.6687" y="88.1576">An employee of the clinic</text><!--MD5=[fad6a9c1e4f80769a7fea8e2093188d9]
+entity 5--><path d="M754.4363,1507.5399 C754.4363,1498.5799 888.837,1498.5799 888.837,1498.5799 C888.837,1498.5799 1023.2378,1498.5799 1023.2378,1507.5399 L1023.2378,1644.7914 C1023.2378,1653.7515 888.837,1653.7515 888.837,1653.7515 C888.837,1653.7515 754.4363,1653.7515 754.4363,1644.7914 L754.4363,1507.5399 " fill="#6631A0" style="stroke: #747FE4; stroke-width: 1.344007609384908;"/><path d="M754.4363,1507.5399 C754.4363,1516.5 888.837,1516.5 888.837,1516.5 C888.837,1516.5 1023.2378,1516.5 1023.2378,1507.5399 " fill="none" style="stroke: #747FE4; stroke-width: 1.344007609384908;"/><text fill="#FFFFFF" font-family="Open Sans" font-size="17.9201" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="94.0805" x="841.7968" y="1539.2378">«Container»</text><text fill="#FFFFFF" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="78.8484" x="849.4128" y="1563.6417">Database</text><path d="M754.4363,1564.4117 C754.4363,1573.3718 888.837,1573.3718 888.837,1573.3718 C888.837,1573.3718 1023.2378,1573.3718 1023.2378,1564.4117 " fill="none" style="stroke: #747FE4; stroke-width: 0.896005072923272;"/><text fill="#FFFFFF" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="240.1294" x="768.7724" y="1591.6296">Stores information regarding</text><text fill="#FFFFFF" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="175.617" x="801.0285" y="1616.0335">the veterinarians, the</text><text fill="#FFFFFF" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="181.889" x="797.8925" y="1640.4374">clients, and their pets.</text><!--MD5=[972855126949b5c35045c6e4e967f0d3]
+link tyles to puml--><path d="M551.5051,81.0998 C562.0538,81.0998 572.6023,81.0998 583.151,81.0998 " fill="none" id="tyles-puml" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><!--MD5=[676073e7019c75b59fc2b05612aba49c]
+link 2 to 9--><path d="M657.4444,126.0419 C652.4708,128.6216 647.4385,131.0013 642.4356,133.0681 C589.7386,154.839 572.2971,146.0694 516.9949,159.9483 C427.756,182.344 400.4575,176.3121 318.0818,217.2926 C296.7291,227.9152 275.3072,241.5273 255.4568,255.6934 " fill="none" id="2-&gt;9" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="251.7689,258.3444,260.4087,256.5477,255.4066,255.7295,256.2248,250.7274,251.7689,258.3444" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="61.8244" x="517.8909" y="179.9981">«HTTP»</text><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="41.2162" x="528.195" y="204.402">Uses</text><!--MD5=[ecc6855e18f9a45a4c7eaf523375ba95]
+link 2 to 10--><path d="M667.5216,133.3321 C614.7717,182.9276 536.9146,256.1289 491.0486,299.2519 " fill="none" id="2-&gt;10" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="487.5301,302.56,495.8602,299.6474,490.794,299.4913,490.9502,294.4251,487.5301,302.56" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="61.8244" x="636.1636" y="179.9981">«HTTP»</text><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="41.2162" x="646.4677" y="204.402">Uses</text><!--MD5=[f7b23945b808440529d54eae70ccd1cc]
+link 2 to 12--><path d="M723.0761,133.3321 C723.0761,182.4307 723.0761,254.6643 723.0761,297.9466 " fill="none" id="2-&gt;12" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="723.0761,302.56,726.6601,294.496,723.0761,298.08,719.4921,294.496,723.0761,302.56" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="61.8244" x="723.9721" y="179.9981">«HTTP»</text><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="41.2162" x="734.2762" y="204.402">Uses</text><!--MD5=[350ab8b289b532334afad443a8f96638]
+link 2 to 11--><path d="M778.6306,133.3321 C831.3805,182.9276 909.2376,256.1289 955.1036,299.2519 " fill="none" id="2-&gt;11" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="958.6221,302.56,955.202,294.4251,955.3582,299.4913,950.292,299.6474,958.6221,302.56" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="61.8244" x="858.3729" y="179.9981">«HTTP»</text><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="41.2162" x="868.6769" y="204.402">Uses</text><!--MD5=[0ad92ee86b71fc92e123e5500ea78341]
+link 2 to 8--><path d="M788.5429,125.537 C793.8654,128.3072 799.2578,130.8623 804.6126,133.0681 C856.612,154.4884 873.7264,146.2106 928.2613,159.9483 C1017.8514,182.5166 1046.9333,173.1057 1128.0704,217.2926 C1167.2565,238.6332 1204.8929,273.1159 1230.319,299.1971 " fill="none" id="2-&gt;8" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="1233.669,302.6572,1230.6348,294.3706,1230.5528,299.4385,1225.4849,299.3565,1233.669,302.6572" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="61.8244" x="1114.6303" y="179.9981">«HTTP»</text><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="41.2162" x="1124.9344" y="204.402">Uses</text><!--MD5=[d3d446dc34180abf0e537dc58c91fbaa]
+link 13 to 16--><path d="M722.0666,625.5966 C631.4275,648.6424 528.643,684.4743 528.643,728.4635 C528.643,728.4635 528.643,728.4635 528.643,1064.4654 C528.643,1096.9591 525.2604,1131.9238 520.7495,1164.1047 " fill="none" id="13-&gt;16" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="520.0759,1168.8319,524.7616,1161.354,520.7079,1164.3967,517.6652,1160.3429,520.0759,1168.8319" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><!--MD5=[4da0104c8d0c5312e15ffe4ed029d370]
+link 13 to 15--><path d="M826.1835,673.4905 C813.044,705.5242 797.4606,743.5159 782.9143,778.9791 " fill="none" id="13-&gt;15" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="781.1457,783.2908,787.522,777.1902,782.8459,779.1459,780.8902,774.4698,781.1457,783.2908" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><!--MD5=[0adf8e3a4d6281f85e9897f001ad4427]
+link 13 to 17--><path d="M936.5096,673.4905 C969.964,705.7846 1009.6913,744.1341 1046.6837,779.8436 " fill="none" id="13-&gt;17" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="1050.2548,783.2908,1046.9421,775.1115,1047.0315,780.1793,1041.9637,780.2687,1050.2548,783.2908" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><!--MD5=[26c085f55605f16ba30993d7cca82057]
+link 13 to 14--><path d="M898.6773,673.6975 C904.9847,691.2029 909.4451,710.081 909.4451,728.4635 C909.4451,728.4635 909.4451,728.4635 909.4451,1064.4654 C909.4451,1098.4477 899.5708,1133.1056 886.1899,1164.4702 " fill="none" id="13-&gt;14" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="884.367,1168.6746,890.8633,1162.7019,886.1492,1164.5643,884.2869,1159.8503,884.367,1168.6746" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><!--MD5=[ff287e09142af3b4e8f31b56ea920cbe]
+link 10 to 13--><path d="M502.525,366.5981 C560.1315,404.0232 657.6727,467.3924 735.942,518.2415 " fill="none" id="10-&gt;13" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="739.8892,520.8059,735.0795,513.4072,736.1324,518.3652,731.1744,519.4181,739.8892,520.8059" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><!--MD5=[8978c83f3fe916af3f6fb0861e2f8d9e]
+link 16 to 5--><path d="M505.0335,1394.6974 C511.6832,1422.7285 523.2499,1450.7182 542.9791,1471.6997 C572.0248,1502.589 666.8632,1529.9672 749.8959,1548.9267 " fill="none" id="16-&gt;5" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="754.3411,1549.9363,747.2712,1544.6552,749.9724,1548.944,745.6835,1551.6452,754.3411,1549.9363" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="59.1363" x="618.6915" y="1441.5733">«JDBC»</text><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="208.7692" x="543.8751" y="1465.9772">Reads from and writes to</text><!--MD5=[5cad5af0897dff878c8b6da08fd225e3]
+link 12 to 13--><path d="M739.4219,366.5981 C758.3722,403.6144 790.316,466.0112 816.1997,516.5708 " fill="none" id="12-&gt;13" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="818.3678,520.8059,817.8831,511.9946,816.3262,516.8181,811.5027,515.2612,818.3678,520.8059" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><!--MD5=[e605806eb6e7daae3444f4d12c952d13]
+link 15 to 5--><path d="M868.3854,1009.5333 C910.8765,1054.1536 952.227,1109.069 973.0615,1168.85 C1017.3912,1296.046 1033.6022,1346.187 984.7096,1471.6997 C981.6575,1479.5346 977.712,1487.1378 973.166,1494.4314 " fill="none" id="15-&gt;5" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="970.5806,1498.4511,977.9572,1493.6077,973.0041,1494.6832,971.9286,1489.73,970.5806,1498.4511" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="59.1363" x="1037.1259" y="1111.8434">«JDBC»</text><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="208.7692" x="962.3094" y="1136.2473">Reads from and writes to</text><!--MD5=[4dca66fb0d9cfb8b0ca9b77e0e08f996]
+link 15 to 16--><path d="M665.3511,1009.4586 C635.3241,1058.3659 600.1936,1115.5862 569.9077,1164.9155 " fill="none" id="15-&gt;16" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="567.5507,1168.7546,574.8243,1163.7577,569.8947,1164.9367,568.7157,1160.0072,567.5507,1168.7546" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><!--MD5=[0a80c38a9b1df8b6d2ad8238a96997b1]
+link 15 to 14--><path d="M758.1113,1009.4586 C768.1934,1058.17 779.9824,1115.1277 790.1645,1164.322 " fill="none" id="15-&gt;14" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="791.0819,1168.7546,792.9571,1160.1315,790.1739,1164.3675,785.9378,1161.5843,791.0819,1168.7546" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><!--MD5=[d02bcbcba2354bb1497a02b08e469c63]
+link 11 to 13--><path d="M976.3188,366.5981 C957.2422,403.6144 925.0855,466.0112 899.0292,516.5708 " fill="none" id="11-&gt;13" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="896.8465,520.8059,903.7265,515.2796,898.8988,516.8236,897.3549,511.9959,896.8465,520.8059" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><!--MD5=[32e0e19703e482a1cb6eec8da929eee3]
+link 17 to 5--><path d="M1185.7745,1009.4777 C1189.2148,1051.5387 1189.0986,1099.3809 1179.1427,1141.9698 C1141.9273,1301.1673 1117.7876,1343.7064 1016.0698,1471.6997 C1009.6924,1479.7243 1002.604,1487.5499 995.1288,1495.0744 " fill="none" id="17-&gt;5" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="991.9023,1498.2805,1000.1488,1495.1388,995.0802,1495.1227,995.0963,1490.0542,991.9023,1498.2805" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="59.1363" x="1262.0231" y="1111.8434">«JDBC»</text><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="208.7692" x="1187.2067" y="1136.2473">Reads from and writes to</text><!--MD5=[7832c07a185a13961cc877a62ffec7a3]
+link 8 to 13--><path d="M1213.2158,366.5981 C1155.4815,404.0232 1057.724,467.3924 979.2812,518.2415 " fill="none" id="8-&gt;13" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="975.3253,520.8059,984.0415,519.4269,979.0845,518.369,980.1425,513.4121,975.3253,520.8059" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><!--MD5=[c776a5700a836c24520374dedec24647]
+link 14 to 5--><path d="M764.5119,1394.8895 C759.5421,1420.7736 759.7412,1447.712 770.5644,1471.6997 C774.1757,1479.7036 778.7376,1487.3401 783.9555,1494.5755 " fill="none" id="14-&gt;5" style="stroke: #747FE4; stroke-width: 2.688015218769816; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="786.9199,1498.5537,784.9752,1489.946,784.2429,1494.9614,779.2275,1494.2292,786.9199,1498.5537" style="stroke: #747FE4; stroke-width: 2.688015218769816;"/><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="59.1363" x="846.2768" y="1441.5733">«JDBC»</text><text fill="#EAE9EB" font-family="Open Sans" font-size="17.9201" lengthAdjust="spacingAndGlyphs" textLength="208.7692" x="771.4604" y="1465.9772">Reads from and writes to</text><text fill="#747FE4" font-family="Open Sans" font-size="12.5441" lengthAdjust="spacingAndGlyphs" textLength="401.4103" x="505.7949" y="1675.9565">The Components diagram for the Spring PetClinic web application.</text><!--MD5=[5439686f7ea15f17b03aaab05cc09c24]
+@startuml(id=components)
+scale max 1413x2000
+
+
+
+
+
+skinparam stereotypeCBackgroundColor 6631a0
+skinparam backgroundColor 211b30
+skinparam shadowing false
+skinparam roundCorner 25
+skinparam defaultTextAlignment center
+
+
+
+
+
+
+
+
+
+skinparam title{
+  FontColor 747fe4
+  FontName "Open Sans"
+}
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 20
+  fontName "Open Sans"
+}
+
+skinparam class {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  attributeFontColor 333
+  attributeFontSize 20
+  attributeIconSize 20
+}
+
+skinparam actor {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  StereotypeFontName "Open Sans"
+  fontcolor 6631a0 
+  borderColor  6631a0 
+
+  
+}
+
+skinparam participant {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor 211b30
+  BorderColor 211b30
+  Fontcolor 6631a0 
+}
+
+
+skinparam interface {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam component {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BorderColor 747fe4
+  BackgroundColor eae9eb
+  fontColor 333
+  stereotypeFontColor 333
+  BorderThickness 5
+}
+
+skinparam node {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BorderColor 747fe4
+  BackgroundColor 211b30
+  FontName "Open Sans"
+}
+
+skinparam database {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor 6631a0
+  BorderColor 747fe4
+  StereotypeFontName "Open Sans"
+  stereotypeFontColor DBFONTCOLOR
+  FontColor DBFONTCOLOR
+}
+
+skinparam queue {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+
+skinparam usecase {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+}
+
+skinparam activity {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+}
+
+skinparam sequence {
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  lifeLineBorderColor 6631a0
+  LifeLineBorderThickness 3
+  lifeLineBackgroundColor 747fe4
+  DividerBorderColor 747fe4
+  DividerBorderThickness 5
+  DividerFontName "Open Sans"
+  DividerFontStyle light
+  DividerFontSize 20
+  DividerBackgroundColor 747fe4
+  DividerFontColor eae9eb
+  TitleFontColor 747fe4
+  TitleFontSize 20
+  TitleFontName "Open Sans"
+  StereotypeFontColor "Open Sans"
+}
+
+skinparam boundary {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam control {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam entity {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+
+skinparam state {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  startColor 747fe4
+  endColor 6631a0
+}
+
+
+skinparam object {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+}
+
+skinparam note {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam cloud {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  BackgroundColor eae9eb
+  fontColor 333
+  stereotypeFontColor 333
+  BorderThickness 5
+}
+
+skinparam rectangle {
+  StereotypeFontName "Open Sans"
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor 6631a0
+  BorderColor 747fe4
+  stereotypeFontColor eae9eb
+  FontColor eae9eb
+}
+
+skinparam storage {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam package {
+  BackgroundColor 211b30
+  borderColor 747fe4
+  BorderThickness 6
+  FontColor eae9eb
+  stereotypeFontColor eae9eb
+  FontName "Open Sans"
+}
+
+
+skinparam caption{
+  FontColor 747fe4
+  FontName "Open Sans"
+}
+
+tyles.puml
+
+
+title Spring PetClinic - Web Application - Components
+caption The Components diagram for the Spring PetClinic web application.
+
+actor "Clinic Employee" <<Person>> as 2 
+note right of 2
+  An employee of the clinic
+end note
+database 5 <<Container>>  [
+  Database
+  - -
+  Stores information regarding
+  the veterinarians, the
+  clients, and their pets.
+]
+package "Web Application" <<Container>> {
+  component 13 <<Spring Service>>  [
+    ClinicService
+    - -
+    Mostly used as a facade so
+    all controllers have a single
+    point of entry
+  ]
+  component 9 <<Spring MVC Controller>>  [
+    CrashController
+    - -
+    Controller used to showcase
+    what happens when an
+    exception is thrown
+  ]
+  component "OwnerController" <<Spring MVC Controller>> as 10 
+  component 16 <<Spring Repository>>  [
+    OwnerRepository
+    - -
+    Repository class for Owner
+    domain objects All method
+    names are compliant with
+    Spring Data naming
+    conventions so this interface
+    can easily be exten...
+  ]
+  component "PetController" <<Spring MVC Controller>> as 12 
+  component 15 <<Spring Repository>>  [
+    PetRepository
+    - -
+    Repository class for Pet
+    domain objects All method
+    names are compliant with
+    Spring Data naming
+    conventions so this interface
+    can easily be extende...
+  ]
+  component "VetController" <<Spring MVC Controller>> as 11 
+  component 17 <<Spring Repository>>  [
+    VetRepository
+    - -
+    Repository class for Vet
+    domain objects All method
+    names are compliant with
+    Spring Data naming
+    conventions so this interface
+    can easily be extende...
+  ]
+  component "VisitController" <<Spring MVC Controller>> as 8 
+  component 14 <<Spring Repository>>  [
+    VisitRepository
+    - -
+    Repository class for Visit
+    domain objects All method
+    names are compliant with
+    Spring Data naming
+    conventions so this interface
+    can easily be exten...
+  ]
+}
+2 ..> 9 : <<HTTP>>\nUses
+2 ..> 10 : <<HTTP>>\nUses
+2 ..> 12 : <<HTTP>>\nUses
+2 ..> 11 : <<HTTP>>\nUses
+2 ..> 8 : <<HTTP>>\nUses
+13 ..> 16 
+13 ..> 15 
+13 ..> 17 
+13 ..> 14 
+10 ..> 13 
+16 ..> 5 : <<JDBC>>\nReads from and writes to
+12 ..> 13 
+15 ..> 5 : <<JDBC>>\nReads from and writes to
+15 ..> 16 
+15 ..> 14 
+11 ..> 13 
+17 ..> 5 : <<JDBC>>\nReads from and writes to
+8 ..> 13 
+14 ..> 5 : <<JDBC>>\nReads from and writes to
+@enduml
+
+PlantUML version 1.2019.13(Tue Dec 10 11:18:29 CST 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_222-8u222-b10-1ubuntu1~18.04.1-b10
+Operating System: Linux
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

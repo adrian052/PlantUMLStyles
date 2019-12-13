@@ -1,0 +1,23 @@
+@startuml(id=context)
+scale max 2000x1409
+
+!define IOHKLIGHT
+!includeurl https://raw.githubusercontent.com/adrian052/PlantUMLStyles/master/iohkStyle.puml
+
+title Spring PetClinic - System Context
+caption The System Context diagram for the Spring PetClinic system.
+
+actor "Clinic Employee" <<Person>> as 2 
+note right of 2
+  An employee of the clinic
+end note
+rectangle 1 <<Software System>>  [
+  Spring PetClinic
+  --
+  Allows employees to view and
+  manage information regarding
+  the veterinarians, the
+  clients, and their pets.
+]
+2 ..> 1 : Uses
+@enduml

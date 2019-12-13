@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="484px" preserveAspectRatio="none" style="width:995px;height:484px;background:#211B30;" version="1.1" viewBox="0 0 995 484" width="995px" zoomAndPan="magnify"><defs/><g><text fill="#747FE4" font-family="Open Sans" font-size="20" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="266" x="365.5" y="31.377">Web Application - Dynamic</text><text fill="#747FE4" font-family="Open Sans" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="319" x="339" y="471.1807">Shows how the "view list of vets" feature works.</text><line style="stroke: #6631A0; stroke-width: 3.0; stroke-dasharray: 5.0,5.0;" x1="138" x2="138" y1="157.7539" y2="342.6992"/><line style="stroke: #6631A0; stroke-width: 3.0; stroke-dasharray: 5.0,5.0;" x1="370" x2="370" y1="157.7539" y2="342.6992"/><line style="stroke: #6631A0; stroke-width: 3.0; stroke-dasharray: 5.0,5.0;" x1="580" x2="580" y1="157.7539" y2="342.6992"/><line style="stroke: #6631A0; stroke-width: 3.0; stroke-dasharray: 5.0,5.0;" x1="775" x2="775" y1="157.7539" y2="342.6992"/><line style="stroke: #6631A0; stroke-width: 3.0; stroke-dasharray: 5.0,5.0;" x1="925" x2="925" y1="157.7539" y2="342.6992"/><rect fill="#211B30" height="64.5176" rx="12.5" ry="12.5" style="stroke: #211B30; stroke-width: 1.5;" width="260" x="8" y="92.2363"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="246" x="15" y="119.2363">«Spring MVC Controller»</text><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="123" x="76.5" y="142.5176">VetController</text><rect fill="#211B30" height="64.5176" rx="12.5" ry="12.5" style="stroke: #211B30; stroke-width: 1.5;" width="260" x="8" y="341.6992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="246" x="15" y="368.6992">«Spring MVC Controller»</text><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="123" x="76.5" y="391.9805">VetController</text><rect fill="#211B30" height="64.5176" rx="12.5" ry="12.5" style="stroke: #211B30; stroke-width: 1.5;" width="184" x="278" y="92.2363"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="170" x="285" y="119.2363">«Spring Service»</text><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="116" x="312" y="142.5176">ClinicService</text><rect fill="#211B30" height="64.5176" rx="12.5" ry="12.5" style="stroke: #211B30; stroke-width: 1.5;" width="184" x="278" y="341.6992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="170" x="285" y="368.6992">«Spring Service»</text><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="116" x="312" y="391.9805">ClinicService</text><rect fill="#211B30" height="64.5176" rx="12.5" ry="12.5" style="stroke: #211B30; stroke-width: 1.5;" width="217" x="472" y="92.2363"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="203" x="479" y="119.2363">«Spring Repository»</text><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="129" x="516" y="142.5176">VetRepository</text><rect fill="#211B30" height="64.5176" rx="12.5" ry="12.5" style="stroke: #211B30; stroke-width: 1.5;" width="217" x="472" y="341.6992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="203" x="479" y="368.6992">«Spring Repository»</text><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="129" x="516" y="391.9805">VetRepository</text><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91" x="726.5" y="127.2363">«Person»</text><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="146" x="699" y="150.5176">Clinic Employee</text><ellipse cx="775" cy="54.2363" fill="#747FE4" rx="8" ry="8" style="stroke: #6631A0; stroke-width: 2.0;"/><path d="M775,62.2363 L775,89.2363 M762,70.2363 L788,70.2363 M775,89.2363 L762,104.2363 M775,89.2363 L788,104.2363 " fill="none" style="stroke: #6631A0; stroke-width: 2.0;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91" x="726.5" y="361.6992">«Person»</text><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="146" x="699" y="384.9805">Clinic Employee</text><ellipse cx="775" cy="402.2168" fill="#747FE4" rx="8" ry="8" style="stroke: #6631A0; stroke-width: 2.0;"/><path d="M775,410.2168 L775,437.2168 M762,418.2168 L788,418.2168 M775,437.2168 L762,452.2168 M775,437.2168 L788,452.2168 " fill="none" style="stroke: #6631A0; stroke-width: 2.0;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="122" x="861" y="127.2363">«Container»</text><text fill="#FFFFFF" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="88" x="878" y="150.5176">Database</text><path d="M907,71.2363 C907,61.2363 925,61.2363 925,61.2363 C925,61.2363 943,61.2363 943,71.2363 L943,97.2363 C943,107.2363 925,107.2363 925,107.2363 C925,107.2363 907,107.2363 907,97.2363 L907,71.2363 " fill="#6631A0" style="stroke: #747FE4; stroke-width: 1.5;"/><path d="M907,71.2363 C907,81.2363 925,81.2363 925,81.2363 C925,81.2363 943,81.2363 943,71.2363 " fill="none" style="stroke: #747FE4; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="122" x="861" y="361.6992">«Container»</text><text fill="#FFFFFF" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="88" x="878" y="384.9805">Database</text><path d="M907,402.2168 C907,392.2168 925,392.2168 925,392.2168 C925,392.2168 943,392.2168 943,402.2168 L943,428.2168 C943,438.2168 925,438.2168 925,438.2168 C925,438.2168 907,438.2168 907,428.2168 L907,402.2168 " fill="#6631A0" style="stroke: #747FE4; stroke-width: 1.5;"/><path d="M907,402.2168 C907,412.2168 925,412.2168 925,412.2168 C925,412.2168 943,412.2168 943,402.2168 " fill="none" style="stroke: #747FE4; stroke-width: 1.5;"/><polygon fill="#747FE4" points="149,196.9902,139,200.9902,149,204.9902,145,200.9902" style="stroke: #747FE4; stroke-width: 1.0;"/><line style="stroke: #747FE4; stroke-width: 3.0;" x1="143" x2="774" y1="200.9902" y2="200.9902"/><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="306" x="155" y="193.1309">1. Requests list of vets from /vets</text><polygon fill="#747FE4" points="358,238.2266,368,242.2266,358,246.2266,362,242.2266" style="stroke: #747FE4; stroke-width: 1.0;"/><line style="stroke: #747FE4; stroke-width: 3.0;" x1="138" x2="364" y1="242.2266" y2="242.2266"/><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="146" x="145" y="234.3672">2. Calls findVets</text><polygon fill="#747FE4" points="568.5,279.4629,578.5,283.4629,568.5,287.4629,572.5,283.4629" style="stroke: #747FE4; stroke-width: 1.0;"/><line style="stroke: #747FE4; stroke-width: 3.0;" x1="370" x2="574.5" y1="283.4629" y2="283.4629"/><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="129" x="377" y="275.6035">3. Calls findAll</text><polygon fill="#747FE4" points="913,320.6992,923,324.6992,913,328.6992,917,324.6992" style="stroke: #747FE4; stroke-width: 1.0;"/><line style="stroke: #747FE4; stroke-width: 3.0;" x1="580.5" x2="919" y1="324.6992" y2="324.6992"/><text fill="#EAE9EB" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="185" x="587.5" y="316.8398">4. select * from vets</text><!--MD5=[b968743ad4e590d794fae92ee91d71fb]
+@startuml(id=viewListOfVets)
+
+
+
+
+
+skinparam stereotypeCBackgroundColor 6631a0
+skinparam backgroundColor 211b30
+skinparam shadowing false
+skinparam roundCorner 25
+skinparam defaultTextAlignment center
+
+
+
+
+
+
+
+
+
+skinparam title{
+  FontColor 747fe4
+  FontName "Open Sans"
+}
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 20
+  fontName "Open Sans"
+}
+
+skinparam class {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  attributeFontColor 333
+  attributeFontSize 20
+  attributeIconSize 20
+}
+
+skinparam actor {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  StereotypeFontName "Open Sans"
+  fontcolor 6631a0 
+  borderColor  6631a0 
+
+  
+}
+
+skinparam participant {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor 211b30
+  BorderColor 211b30
+  Fontcolor 6631a0 
+}
+
+
+skinparam interface {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam component {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BorderColor 747fe4
+  BackgroundColor eae9eb
+  fontColor 333
+  stereotypeFontColor 333
+  BorderThickness 5
+}
+
+skinparam node {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BorderColor 747fe4
+  BackgroundColor 211b30
+  FontName "Open Sans"
+}
+
+skinparam database {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor 6631a0
+  BorderColor 747fe4
+  StereotypeFontName "Open Sans"
+  stereotypeFontColor DBFONTCOLOR
+  FontColor DBFONTCOLOR
+}
+
+skinparam queue {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+
+skinparam usecase {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+}
+
+skinparam activity {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+}
+
+skinparam sequence {
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  lifeLineBorderColor 6631a0
+  LifeLineBorderThickness 3
+  lifeLineBackgroundColor 747fe4
+  DividerBorderColor 747fe4
+  DividerBorderThickness 5
+  DividerFontName "Open Sans"
+  DividerFontStyle light
+  DividerFontSize 20
+  DividerBackgroundColor 747fe4
+  DividerFontColor eae9eb
+  TitleFontColor 747fe4
+  TitleFontSize 20
+  TitleFontName "Open Sans"
+  StereotypeFontColor "Open Sans"
+}
+
+skinparam boundary {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam control {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam entity {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+
+skinparam state {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  startColor 747fe4
+  endColor 6631a0
+}
+
+
+skinparam object {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+}
+
+skinparam note {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam cloud {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor eae9eb
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  BackgroundColor eae9eb
+  fontColor 333
+  stereotypeFontColor 333
+  BorderThickness 5
+}
+
+skinparam rectangle {
+  StereotypeFontName "Open Sans"
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor 6631a0
+  BorderColor 747fe4
+  stereotypeFontColor eae9eb
+  FontColor eae9eb
+}
+
+skinparam storage {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor eae9eb
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam package {
+  BackgroundColor 211b30
+  borderColor 747fe4
+  BorderThickness 6
+  FontColor eae9eb
+  stereotypeFontColor eae9eb
+  FontName "Open Sans"
+}
+
+
+skinparam caption{
+  FontColor 747fe4
+  FontName "Open Sans"
+}
+
+
+
+
+scale max 2000x1409
+title Web Application - Dynamic
+caption Shows how the "view list of vets" feature works.
+
+participant "VetController" as 11 <<Spring MVC Controller>> 
+participant "ClinicService" as 13 <<Spring Service>> 
+participant "VetRepository" as 17 <<Spring Repository>> 
+actor "Clinic Employee" as 2 <<Person>> 
+database "Database" as 5 <<Container>> 
+2 -> 11 : 1. Requests list of vets from /vets
+11 -> 13 : 2. Calls findVets
+13 -> 17 : 3. Calls findAll
+17 -> 5 : 4. select * from vets
+@enduml
+
+PlantUML version 1.2019.13(Tue Dec 10 11:18:29 CST 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_222-8u222-b10-1ubuntu1~18.04.1-b10
+Operating System: Linux
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
