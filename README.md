@@ -10,3 +10,6 @@ IOHK inspires PlantUML Styles
 ' your UML '
 @enduml
 ```
+
+Examples:
+--------------------------------------------------
