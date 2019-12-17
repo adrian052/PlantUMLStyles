@@ -1,8 +1,7 @@
-ls
 @startuml(id=context)
 scale max 2000x1409
 
-!define TESTNETDARK
+!define TESTNETLIGHT
 !includeurl https://raw.githubusercontent.com/adrian052/PlantUMLStyles/master/iohkStyle.puml
 
 title Spring PetClinic - System Context

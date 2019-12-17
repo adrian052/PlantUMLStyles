@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="463px" preserveAspectRatio="none" style="width:539px;height:463px;background:#EAE9EB;" version="1.1" viewBox="0 0 539 463" width="539px" zoomAndPan="magnify"><defs/><g><text fill="#747FE4" font-family="Open Sans" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="278" x="133" y="19.2393">Spring PetClinic - System Context</text><!--MD5=[773709cb2207c097691e7e7d3d2cc787]
+entity 2--><ellipse cx="164" cy="65.2939" fill="#747FE4" rx="8" ry="8" style="stroke: #6631A0; stroke-width: 1.5;"/><path d="M164,73.2939 L164,100.2939 M151,81.2939 L177,81.2939 M164,100.2939 L151,115.2939 M164,100.2939 L177,115.2939 " fill="none" style="stroke: #6631A0; stroke-width: 1.5;"/><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="146" x="91" y="139.1709">Clinic Employee</text><text fill="#6631A0" font-family="6631a0" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91" x="118.5" y="51.0771">«Person»</text><path d="M272.5,83.0127 L272.5,85.0127 L237.4375,89.0127 L272.5,93.0127 L272.5,95.249 A12.5,12.5 0 0 0 285,107.749 L513,107.749 A12.5,12.5 0 0 0 525.5,95.249 L525.5,80.5127 L515.5,70.5127 L285,70.5127 A12.5,12.5 0 0 0 272.5,83.0127 " fill="#747FE4" style="stroke: #6631A0; stroke-width: 1.0;"/><path d="M515.5,70.5127 L515.5,74.2627 A6.25,6.25 0 0 0 521.75,80.5127 L525.5,80.5127 L515.5,70.5127 " fill="#747FE4" style="stroke: #6631A0; stroke-width: 1.0;"/><text fill="#333333" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="232" x="278.5" y="96.8896">An employee of the clinic</text><!--MD5=[13c7745981a6abb6004f7738a8ca5078]
+entity 1--><rect fill="#EAE9EB" height="191.418" rx="12.5" ry="12.5" style="stroke: #333333; stroke-width: 1.5;" width="316" x="6" y="234.5127"/><text fill="#6631A0" font-family="Open Sans" font-size="20" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="160" x="84" y="265.8896">«Software System»</text><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="144" x="92" y="293.126">Spring PetClinic</text><line style="stroke: #333333; stroke-width: 1.0;" x1="7" x2="321" y1="298.9854" y2="298.9854"/><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="278" x="25" y="324.3623">Allows employees to view and</text><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="284" x="22" y="351.5986">manage information regarding</text><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="196" x="66" y="378.835">the veterinarians, the</text><text fill="#6631A0" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="203" x="62.5" y="406.0713">clients, and their pets.</text><!--MD5=[f66784b854ad69a06c9b9f3eda09ba3a]
+link 2 to 1--><path d="M164,145.5165 C164,170.4015 164,200.4163 164,228.9395 " fill="none" id="2-&gt;1" style="stroke: #747FE4; stroke-width: 3.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#747FE4" points="164,234.2465,168,225.2465,164,229.2465,160,225.2465,164,234.2465" style="stroke: #747FE4; stroke-width: 3.0;"/><text fill="#333333" font-family="Open Sans" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="46" x="165" y="197.8896">Uses</text><text fill="#747FE4" font-family="Open Sans" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="406" x="69" y="450.4766">The System Context diagram for the Spring PetClinic system.</text><!--MD5=[661982c8240195e0fe6cae08b0990219]
+@startuml(id=context)
+scale max 2000x1409
+
+
+
+
+
+
+
+skinparam stereotypeCBackgroundColor 6631a0
+skinparam backgroundColor eae9eb
+skinparam shadowing false
+skinparam roundCorner 25
+skinparam defaultTextAlignment center
+
+
+
+
+
+
+
+skinparam title{
+  FontColor 747fe4
+  FontName "Open Sans"
+}
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 20
+  fontName "Open Sans"
+}
+
+skinparam class {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  attributeFontColor eae9eb
+  attributeFontSize 20
+  attributeIconSize 20
+}
+
+skinparam actor {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  StereotypeFontName 6631a0
+  fontcolor 6631a0 
+  borderColor  6631a0 
+
+  
+}
+
+skinparam participant {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor eae9eb
+  BorderColor eae9eb
+  Fontcolor 6631a0 
+}
+
+
+skinparam interface {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam component {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BorderColor 747fe4
+  BackgroundColor 333
+  fontColor eae9eb
+  stereotypeFontColor eae9eb
+  BorderThickness 5
+}
+
+skinparam node {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BorderColor 747fe4
+  BackgroundColor eae9eb
+  FontName "Open Sans"
+}
+
+skinparam database {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor eae9eb
+  BorderColor 333
+  StereotypeFontName "Open Sans"
+  stereotypeFontColor 6631a0
+  FontColor 6631a0
+}
+
+skinparam queue {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+
+skinparam usecase {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+}
+
+skinparam activity {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+}
+
+skinparam sequence {
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  lifeLineBorderColor 6631a0
+  LifeLineBorderThickness 3
+  lifeLineBackgroundColor 747fe4
+  DividerBorderColor 747fe4
+  DividerBorderThickness 5
+  DividerFontName "Open Sans"
+  DividerFontStyle light
+  DividerFontSize 20
+  DividerBackgroundColor 747fe4
+  DividerFontColor 333
+  TitleFontColor 747fe4
+  TitleFontSize 20
+  TitleFontName "Open Sans"
+  StereotypeFontColor 6631a0
+}
+
+skinparam boundary {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam control {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam entity {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+
+skinparam state {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  startColor 747fe4
+  endColor 6631a0
+}
+
+
+skinparam object {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+}
+
+skinparam note {
+    backgroundColor 747fe4
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam cloud {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+    arrowColor 747fe4
+  arrowFontName "Open Sans"
+  arrowFontColor 333
+  arrowFontSize 20
+  ArrowThickness 3
+  LollipopColor 747fe4
+  BackgroundColor 333
+  fontColor eae9eb
+  stereotypeFontColor eae9eb
+  BorderThickness 5
+}
+
+skinparam rectangle {
+  StereotypeFontName "Open Sans"
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+  BackgroundColor eae9eb
+  BorderColor 333
+  stereotypeFontColor 6631a0
+  FontColor 6631a0
+}
+
+skinparam storage {
+    backgroundColor 6631a0
+  borderColor 6631a0
+    fontColor 333
+  fontName "Open Sans"
+  fontSize 20
+  stereotypeFontColor 6631a0
+  stereotypeFontSize 20
+  fontStyle lighter
+}
+
+skinparam package {
+  BackgroundColor eae9eb
+  borderColor 747fe4
+  BorderThickness 6
+  FontColor 333
+  stereotypeFontColor 333
+  FontName "Open Sans"
+}
+
+
+skinparam caption{
+  FontColor 747fe4
+  FontName "Open Sans"
+}
+
+
+title Spring PetClinic - System Context
+caption The System Context diagram for the Spring PetClinic system.
+
+actor "Clinic Employee" <<Person>> as 2 
+note right of 2
+  An employee of the clinic
+end note
+rectangle 1 <<Software System>>  [
+  Spring PetClinic
+  - -
+  Allows employees to view and
+  manage information regarding
+  the veterinarians, the
+  clients, and their pets.
+]
+2 ..> 1 : Uses
+@enduml
+
+PlantUML version 1.2019.13(Tue Dec 10 11:18:29 CST 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_222-8u222-b10-1ubuntu1~18.04.1-b10
+Operating System: Linux
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

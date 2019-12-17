@@ -1,0 +1,24 @@
+@startuml(id=developmentDeployment)
+
+!define TESTNETLIGHT
+!includeurl https://raw.githubusercontent.com/adrian052/PlantUMLStyles/master/iohkStyle.puml
+
+
+scale max 2000x1409
+title Spring PetClinic - Deployment - Default
+caption An example development deployment scenario for the Spring PetClinic software system.
+
+node "Developer Laptop" <<Windows 7+ or macOS>> as 37 {
+  node "Docker Container - Database Server" <<Docker>> as 41 {
+    node "Database Server" <<HSQLDB>> as 42 {
+      database "Database" <<Container>> as 43 
+    }
+  }
+  node "Docker Container - Web Server" <<Docker>> as 38 {
+    node "Apache Tomcat" <<Apache Tomcat 7.x>> as 39 {
+      rectangle "Web Application" <<Container>> as 40 
+    }
+  }
+}
+40 ..> 43 : <<JDBC>>\nReads from and writes to
+@enduml

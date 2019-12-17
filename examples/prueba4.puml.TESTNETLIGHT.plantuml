@@ -1,0 +1,21 @@
+@startuml(id=viewListOfVets)
+
+!define TESTNETLIGHT
+!includeurl https://raw.githubusercontent.com/adrian052/PlantUMLStyles/master/iohkStyle.puml
+
+
+
+scale max 2000x1409
+title Web Application - Dynamic
+caption Shows how the "view list of vets" feature works.
+
+participant "VetController" as 11 <<Spring MVC Controller>> 
+participant "ClinicService" as 13 <<Spring Service>> 
+participant "VetRepository" as 17 <<Spring Repository>> 
+actor "Clinic Employee" as 2 <<Person>> 
+database "Database" as 5 <<Container>> 
+2 -> 11 : 1. Requests list of vets from /vets
+11 -> 13 : 2. Calls findVets
+13 -> 17 : 3. Calls findAll
+17 -> 5 : 4. select * from vets
+@enduml
