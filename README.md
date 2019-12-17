@@ -16,7 +16,7 @@ Examples:
 Example 1(TESTNETDARK):
 ![TESTNETDARK](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba1.puml.TESTNETDARK.svg)
 Example 1(TESTNETLIGHT): 
-![TESTNETLIGHT](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba1.puml.TESTNETLIGHT.sv77g)
+![TESTNETLIGHT](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba1.puml.TESTNETLIGHT.svg)
 Example 1(IOHKDARK): 
 ![IOHKDARK](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba1.puml.IOHKDARK.svg)
 Example 1(IOHKLIGHT): 
