@@ -22,14 +22,14 @@ Example 1(IOHKDARK):
 Example 1(IOHKLIGHT):  
 ![IOHKLIGHT](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba1.puml.IOHKLIGHT.svg)  
 Example 2(TESTNETDARK)  
-![TESTNETDARK](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba2.puml.TESTNETDARK.svg)
+![TESTNETDARK](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba2.puml.TESTNETDARK.svg)  
 Example 2(TESTNETLIGHT):  
-![TESTNETLIGHT](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba2.puml.TESTNETLIGHT.svg)
+![TESTNETLIGHT](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba2.puml.TESTNETLIGHT.svg)   
 Example 2(IOHKDARK):  
-![IOHKDARK](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba2.puml.IOHKDARK.svg)
+![IOHKDARK](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba2.puml.IOHKDARK.svg)    
 Example 2(IOHKLIGHT):   
-![IOHKLIGHT](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba2.puml.IOHKLIGHT.svg)
-Example 3(TESTNETDARK):
+![IOHKLIGHT](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba2.puml.IOHKLIGHT.svg)   
+Example 3(TESTNETDARK):  
 ![TESTNETDARK](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba3.puml.TESTNETDARK.svg)
 Example 3(TESTNETLIGHT):  
 ![TESTNETLIGHT](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba3.puml.TESTNETLIGHT.svg)  
@@ -40,9 +40,9 @@ Example 3(IOHKLIGHT)
 Example 4(TESTNETDARK):  
 ![TESTNETDARK](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba4.puml.TESTNETDARK.svg)  
 Example 4(TESTNETLIGHT): 
-![TESTNETLIGHT](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba4.puml.TESTNETLIGHT.svg)
+![TESTNETLIGHT](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba4.puml.TESTNETLIGHT.svg)   
 Example 4(IOHKDARK):  
-![IOHKDARK](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba4.puml.IOHKDARK.svg)
+![IOHKDARK](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba4.puml.IOHKDARK.svg)   
 Example 4(IOHKLIGHT):  
 ![IOHKLIGHT](https://github.com/adrian052/PlantUMLStyles/blob/master/images/prueba4.puml.IOHKLIGHT.svg)  
 Example 5(TESTNETDARK):  
