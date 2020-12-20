@@ -1,37 +1,36 @@
 @startuml
-
-!ifndef FONTNAME
-!define FONTNAME "Open Sans"
+!if (%not(%variable_exists("$FONTNAME")))
+!$FONTNAME = "Open Sans"
 !endif
 
-!ifndef FONTSIZE
-!define FONTSIZE 20
+!if (%not(%variable_exists("$FONTSIZE")))
+!$FONTSIZE = 20
 !endif
 
 
 !ifdef TESTNETDARK
-!define ACCENTLIGHT cac5f5
-!define ACCENT 747fe4
-!define ACCENTDARK 6631a0
-!define PRIMARY eae9eb
-!define SECONDARY 333
-!define ARROWCOLOR ACCENT
-!define ARROWFONTCOLOR ACCENT
-!define BORDERCOLOR ACCENTDARK
-!define BACKGROUNDCOLOR 211b30
-!define BOXBG ACCENTDARK
-!define DBBGCOLOR ACCENTDARK
-!define DBFONTC PRIMARY
-!define RECFONTC PRIMARY
-!define RECBGCOLOR ACCENTDARK
-!define DBBORCOLOR ACCENT
-!define RECBORCOLOR ACCENT
-!define LIFELINECOLOR ACCENTDARK
-!define SEQFONTCOLOR ACCENTDARK
-!define STEREOTYPEFONTNAME FONTNAME
-!define ACTORBORCOLOR ACCENTDARK
-skinparam stereotypeCBackgroundColor ACCENTDARK
-skinparam backgroundColor BACKGROUNDCOLOR
+!$ACCENTLIGHT = "cac5f5"
+!$ACCENT = "747fe4"
+!$ACCENTDARK = "6631a0"
+!$PRIMARY = "eae9eb"
+!$SECONDARY = "333"
+!$ARROWCOLOR = $ACCENT
+!$ARROWFONTCOLOR = $ACCENT
+!$BORDERCOLOR = $ACCENTDARK
+!$BACKGROUNDCOLOR = "211b30"
+!$BOXBG = $ACCENTDARK
+!$DBBGCOLOR = $ACCENTDARK
+!$DBFONTC = $PRIMARY
+!$RECFONTC = $PRIMARY
+!$RECBGCOLOR = $ACCENTDARK
+!$DBBORCOLOR = $ACCENT
+!$RECBORCOLOR = $ACCENT
+!$LIFELINECOLOR = $ACCENTDARK
+!$SEQFONTCOLOR = $ACCENTDARK
+!$STEREOTYPEFONTNAME = $FONTNAME
+!$ACTORBORCOLOR = $ACCENTDARK
+skinparam stereotypeCBackgroundColor $ACCENTDARK
+skinparam backgroundColor $BACKGROUNDCOLOR
 skinparam shadowing false
 skinparam roundCorner 25
 skinparam defaultTextAlignment center
@@ -39,26 +38,26 @@ skinparam defaultTextAlignment center
 
 
 !ifdef TESTNETLIGHT
-!define ACCENTLIGHT cac5f5
-!define ACCENT 747fe4
-!define ACCENTDARK 6631a0
-!define PRIMARY 333
-!define SECONDARY eae9eb
-!define ARROWCOLOR ACCENT
-!define ARROWFONTCOLOR ACCENT
-!define BORDERCOLOR ACCENTDARK
-!define BACKGROUNDCOLOR eae9eb
-!define BOXBG ACCENTDARK
-!define DBBGCOLOR SECONDARY
-!define DBFONTCOLOR ACCENTDARK
-!define RECFONTC ACCENTDARK
-!define RECBGCOLOR SECONDARY
-!define RECBORCOLOR PRIMARY
-!define DBBORCOLOR PRIMARY
-!define LIFELINECOLOR ACCENTDARK
-!define SEQFONTCOLOR ACCENTDARK
-!define STEREOTYPEFONTNAME ACCENTDARK
-!define ACTORBORCOLOR ACCENTDARK
+!$ACCENTLIGHT = "cac5f5"
+!$ACCENT = "747fe4"
+!$ACCENTDARK = "6631a0"
+!$PRIMARY = "333"
+!$SECONDARY = "eae9eb"
+!$ARROWCOLOR = $ACCENT
+!$ARROWFONTCOLOR = $ACCENT
+!$BORDERCOLOR = $ACCENTDARK
+!$BACKGROUNDCOLOR = "eae9eb"
+!$BOXBG = $ACCENTDARK
+!$DBBGCOLOR = $SECONDARY
+!$DBFONTCOLOR = $ACCENTDARK
+!$RECFONTC = $ACCENTDARK
+!$RECBGCOLOR = $SECONDARY
+!$RECBORCOLOR = $PRIMARY
+!$DBBORCOLOR = $PRIMARY
+!$LIFELINECOLOR = $ACCENTDARK
+!$SEQFONTCOLOR = $ACCENTDARK
+!$STEREOTYPEFONTNAME = $ACCENTDARK
+!$ACTORBORCOLOR = $ACCENTDARK
 skinparam stereotypeCBackgroundColor ACCENTDARK
 skinparam backgroundColor BACKGROUNDCOLOR
 skinparam shadowing false
@@ -67,26 +66,26 @@ skinparam defaultTextAlignment center
 !endif
 
 !ifdef IOHKDARK
-!define ACCENTLIGHT f69ab2
-!define ACCENT ff3157
-!define ACCENTDARK 333333
-!define PRIMARY eae9eb
-!define SECONDARY 333
-!define BACKGROUNDCOLOR SECONDARY
-!define ARROWCOLOR PRIMARY
-!define ARROWFONTCOLOR ACCENTDARK
-!define BORDERCOLOR ACCENTDARK
-!define BOXBG ACCENTDARK 
-!define DBBORCOLOR ACCENT
-!define DBBGCOLOR PRIMARY
-!define DBFONTCOLOR ACCENT
-!define RECFONTC ACCENT
-!define RECBGCOLOR PRIMARY 
-!define RECBORCOLOR ACCENT
-!define LIFELINECOLOR ACCENT
-!define SEQFONTCOLOR ACCENT
-!define STEREOTYPEFONTNAME ACCENT
-!define ACTORBORCOLOR ACCENT
+!$ACCENTLIGHT = "f69ab2"
+!$ACCENT = "ff3157"
+!$ACCENTDARK = "333333"
+!$PRIMARY = "eae9eb"
+!$SECONDARY = "333"
+!$BACKGROUNDCOLOR = $SECONDARY
+!$ARROWCOLOR = $PRIMARY
+!$ARROWFONTCOLOR = $ACCENTDARK
+!$BORDERCOLOR = $ACCENTDARK
+!$BOXBG ACCENTDARK 
+!$DBBORCOLOR = $ACCENT
+!$DBBGCOLOR = $PRIMARY
+!$DBFONTCOLOR = $ACCENT
+!$RECFONTC = $ACCENT
+!$RECBGCOLOR PRIMARY 
+!$RECBORCOLOR = $ACCENT
+!$LIFELINECOLOR = $ACCENT
+!$SEQFONTCOLOR = $ACCENT
+!$STEREOTYPEFONTNAME = $ACCENT
+!$ACTORBORCOLOR = $ACCENT
 skinparam stereotypeCBackgroundColor ACCENTDARK
 skinparam backgroundColor BACKGROUNDCOLOR
 skinparam shadowing false
@@ -95,26 +94,26 @@ skinparam defaultTextAlignment center
 !endif
 
 !ifdef IOHKLIGHT
-!define ACCENTLIGHT f69ab2
-!define ACCENT ff3157
-!define ACCENTDARK 333333
-!define PRIMARY 333
-!define SECONDARY eae9eb
-!define BACKGROUNDCOLOR SECONDARY
-!define ARROWCOLOR ACCENTDARK
-!define ARROWFONTCOLOR ACCENTDARK
-!define BORDERCOLOR ACCENTDARK
-!define BOXBG ACCENTDARK 
-!define DBBORCOLOR ACCENT
-!define DBBGCOLOR PRIMARY
-!define DBFONTCOLOR ACCENT
-!define RECFONTC ACCENT
-!define RECBGCOLOR ACCENTDARK 
-!define RECBORCOLOR ACCENT
-!define LIFELINECOLOR ACCENT
-!define SEQFONTCOLOR PRIMARY
-!define STEREOTYPEFONTNAME ACCENT
-!define ACTORBORCOLOR ACCENTDARK
+!$ACCENTLIGHT = "f69ab2"
+!$ACCENT = "ff3157"
+!$ACCENTDARK = "333333"
+!$PRIMARY = "333"
+!$SECONDARY = "eae9eb"
+!$BACKGROUNDCOLOR = $SECONDARY
+!$ARROWCOLOR = $ACCENTDARK
+!$ARROWFONTCOLOR = $ACCENTDARK
+!$BORDERCOLOR = $ACCENTDARK
+!$BOXBG ACCENTDARK 
+!$DBBORCOLOR = $ACCENT
+!$DBBGCOLOR = $PRIMARY
+!$DBFONTCOLOR = $ACCENT
+!$RECFONTC = $ACCENT
+!$RECBGCOLOR ACCENTDARK 
+!$RECBORCOLOR = $ACCENT
+!$LIFELINECOLOR = $ACCENT
+!$SEQFONTCOLOR = $PRIMARY
+!$STEREOTYPEFONTNAME = $ACCENT
+!$ACTORBORCOLOR = $ACCENTDARK
 skinparam stereotypeCBackgroundColor ACCENTDARK
 skinparam backgroundColor BACKGROUNDCOLOR
 skinparam shadowing false
@@ -122,63 +121,63 @@ skinparam roundCorner 25
 skinparam defaultTextAlignment center
 !endif
 
-!function font_style()
-  fontColor PRIMARY
-  fontName FONTNAME
-  fontSize FONTSIZE
-  stereotypeFontColor ACCENTDARK
-  stereotypeFontSize FONTSIZE
+!procedure font_style()
+  fontColor $PRIMARY
+  fontName $FONTNAME
+  fontSize $FONTSIZE
+  stereotypeFontColor $ACCENTDARK
+  stereotypeFontSize $FONTSIZE
   fontStyle lighter
 !endfunction
 
-!function basic_style()
-  backgroundColor BOXBG
-  borderColor BORDERCOLOR
+!procedure basic_style()
+  backgroundColor $BOXBG
+  borderColor $BORDERCOLOR
 !endfunction
 
-!function accent_style()
-  backgroundColor ACCENT
-  borderColor ACCENTDARK
+!procedure accent_style()
+  backgroundColor $ACCENT
+  borderColor $ACCENTDARK
 !endfunction
 
-!function arrow_style()
-  arrowColor ARROWCOLOR
-  arrowFontName FONTNAME
-  arrowFontColor PRIMARY
-  arrowFontSize FONTSIZE
+!procedure arrow_style()
+  arrowColor $ARROWCOLOR
+  arrowFontName $FONTNAME
+  arrowFontColor $PRIMARY
+  arrowFontSize $FONTSIZE
   ArrowThickness 3
-  LollipopColor ARROWCOLOR
+  LollipopColor $ARROWCOLOR
 !endfunction
 
 skinparam title{
-  FontColor ACCENT
-  FontName FONTNAME
+  FontColor $ACCENT
+  FontName $FONTNAME
 }
 
 ' Class diagrams
 
 skinparam circledCharacter {
   radius 8
-  fontSize FONTSIZE
-  fontName FONTNAME
+  fontSize $FONTSIZE
+  fontName $FONTNAME
 }
 
 skinparam class {
   basic_style()
   font_style()
   arrow_style()
-  attributeFontColor SECONDARY
-  attributeFontSize FONTSIZE
-  attributeIconSize FONTSIZE
+  attributeFontColor $SECONDARY
+  attributeFontSize $FONTSIZE
+  attributeIconSize $FONTSIZE
 }
 
 ' Sequence diagrams
 skinparam actor {
   accent_style()
   font_style()
-  StereotypeFontName STEREOTYPEFONTNAME
-  fontcolor SEQFONTCOLOR 
-  borderColor  ACTORBORCOLOR 
+  StereotypeFontName $STEREOTYPEFONTNAME
+  fontcolor $SEQFONTCOLOR 
+  borderColor  $ACTORBORCOLOR 
 
   
 }
@@ -186,9 +185,9 @@ skinparam actor {
 skinparam participant {
   basic_style()
   font_style()
-  BackgroundColor BACKGROUNDCOLOR
-  BorderColor BACKGROUNDCOLOR
-  Fontcolor SEQFONTCOLOR 
+  BackgroundColor $BACKGROUNDCOLOR
+  BorderColor $BACKGROUNDCOLOR
+  Fontcolor $SEQFONTCOLOR 
 }
 
 ' Component diagrams
@@ -201,30 +200,30 @@ skinparam interface {
 skinparam component {
   basic_style()
   font_style()
-  'StereotypeFontColor PRIMARY
-  BorderColor ACCENT
-  BackgroundColor PRIMARY
-  fontColor SECONDARY
-  stereotypeFontColor SECONDARY
+  'StereotypeFontColor $PRIMARY
+  BorderColor $ACCENT
+  BackgroundColor $PRIMARY
+  fontColor $SECONDARY
+  stereotypeFontColor $SECONDARY
   BorderThickness 5
 }
 
 skinparam node {
   basic_style()
   font_style()
-  BorderColor ACCENT
-  BackgroundColor BACKGROUNDCOLOR
-  FontName FONTNAME
+  BorderColor $ACCENT
+  BackgroundColor $BACKGROUNDCOLOR
+  FontName $FONTNAME
 }
 
 skinparam database {
   basic_style()
   font_style()
-  BackgroundColor DBBGCOLOR
-  BorderColor DBBORCOLOR
-  StereotypeFontName FONTNAME
-  stereotypeFontColor DBFONTCOLOR
-  FontColor DBFONTCOLOR
+  BackgroundColor $DBBGCOLOR
+  BorderColor $DBBORCOLOR
+  StereotypeFontName $FONTNAME
+  stereotypeFontColor $DBFONTCOLOR
+  FontColor $DBFONTCOLOR
 }
 
 skinparam queue {
@@ -249,20 +248,20 @@ skinparam activity {
 skinparam sequence {
   font_style()
   arrow_style()
-  lifeLineBorderColor LIFELINECOLOR
+  lifeLineBorderColor $LIFELINECOLOR
   LifeLineBorderThickness 3
-  lifeLineBackgroundColor ACCENT
-  DividerBorderColor ACCENT
+  lifeLineBackgroundColor $ACCENT
+  DividerBorderColor $ACCENT
   DividerBorderThickness 5
-  DividerFontName FONTNAME
+  DividerFontName $FONTNAME
   DividerFontStyle light
-  DividerFontSize FONTSIZE
-  DividerBackgroundColor ACCENT
-  DividerFontColor PRIMARY
-  TitleFontColor ACCENT
-  TitleFontSize FONTSIZE
-  TitleFontName FONTNAME
-  StereotypeFontColor STEREOTYPEFONTNAME
+  DividerFontSize $FONTSIZE
+  DividerBackgroundColor $ACCENT
+  DividerFontColor $PRIMARY
+  TitleFontColor $ACCENT
+  TitleFontSize $FONTSIZE
+  TitleFontName $FONTNAME
+  StereotypeFontColor $STEREOTYPEFONTNAME
 }
 
 skinparam boundary {
@@ -286,8 +285,8 @@ skinparam state {
   basic_style()
   font_style()
   arrow_style()
-  startColor ACCENT
-  endColor ACCENTDARK
+  startColor $ACCENT
+  endColor $ACCENTDARK
 }
 
 ' Object diagrams
@@ -308,20 +307,20 @@ skinparam cloud {
   basic_style()
   font_style()
   arrow_style()
-  BackgroundColor PRIMARY
-  fontColor SECONDARY
-  stereotypeFontColor SECONDARY
+  BackgroundColor $PRIMARY
+  fontColor $SECONDARY
+  stereotypeFontColor $SECONDARY
   BorderThickness 5
 }
 
 skinparam rectangle {
-  StereotypeFontName FONTNAME
+  StereotypeFontName $FONTNAME
   basic_style()
   font_style()
-  BackgroundColor RECBGCOLOR
-  BorderColor RECBORCOLOR
-  stereotypeFontColor RECFONTC
-  FontColor RECFONTC
+  BackgroundColor $RECBGCOLOR
+  BorderColor $RECBORCOLOR
+  stereotypeFontColor $RECFONTC
+  FontColor $RECFONTC
 }
 
 skinparam storage {
@@ -330,18 +329,18 @@ skinparam storage {
 }
 
 skinparam package {
-  BackgroundColor BACKGROUNDCOLOR
-  borderColor ACCENT
+  BackgroundColor $BACKGROUNDCOLOR
+  borderColor $ACCENT
   BorderThickness 6
-  FontColor PRIMARY
-  stereotypeFontColor PRIMARY
-  FontName FONTNAME
+  FontColor $PRIMARY
+  stereotypeFontColor $PRIMARY
+  FontName $FONTNAME
 }
 
 
 skinparam caption{
-  FontColor ACCENT
-  FontName FONTNAME
+?  FontColor $ACCENT
+  FontName $FONTNAME
 }
 
 @enduml
