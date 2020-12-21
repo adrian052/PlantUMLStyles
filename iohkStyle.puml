@@ -339,7 +339,7 @@ skinparam package {
 
 
 skinparam caption{
-?  FontColor $ACCENT
+  FontColor $ACCENT
   FontName $FONTNAME
 }
 
